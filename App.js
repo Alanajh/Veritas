@@ -31,6 +31,42 @@ export default function App() {
     setText(styles.textPlum);
   }
   
+  // start here and down fixing themes
+  const freshTheme = () => {
+    setContainerTheme(styles.containerFresh);
+    setTheme(styles.themeFresh)
+    setText(styles.textFresh);
+  }
+
+  const chiliTheme = () => {
+    setContainerTheme(styles.containerChili);
+    setTheme(styles.themeChili)
+    setText(styles.textChili);
+  } 
+
+  const mutedTheme = () => {
+    setContainerTheme(styles.containerMuted);
+    setTheme(styles.themeMuted)
+    setText(styles.textMuted);
+  }
+
+  const seaMintTheme = () => {
+    setContainerTheme(styles.containerSeaMint);
+    setTheme(styles.themeSeaMint)
+    setText(styles.textSeaMint);
+  }
+
+  const daisyStemTheme = () => {
+    setContainerTheme(styles.containerDaisyStem);
+    setTheme(styles.themeDaisyStem)
+    setText(styles.textDaisyStem);
+  }
+
+  const schoolTheme = () => {
+    setContainerTheme(styles.containerSchool);
+    setTheme(styles.themeSchool)
+    setText(styles.textSchool);
+  }
   return (
     <View style={containerTheme}>
       {/* <TestScreen /> */}
@@ -49,10 +85,40 @@ export default function App() {
       >
         <Text style={styles.txt}>Powder</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={theme} id={3}
+      <TouchableOpacity style={theme} id={4}
+      onPress={() => freshTheme()}
+      >
+        <Text style={styles.txt}>Fresh</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={theme} id={5}
+      onPress={() => chiliTheme()}
+      >
+        <Text style={styles.txt}>Chili</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={theme} id={6}
+      onPress={() => mutedTheme()}
+      >
+        <Text style={styles.txt}>Muted</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={theme} id={7}
       onPress={() => plumTheme()}
       >
         <Text style={styles.txt}>Plum</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={theme} id={8}
+      onPress={() => seaMintTheme()}
+      >
+        <Text style={styles.txt}>Sea Mint</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={theme} id={9}
+      onPress={() => daisyStemTheme()}
+      >
+        <Text style={styles.txt}>Daisy Stem</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={theme} id={10}
+      onPress={() => schoolTheme()}
+      >
+        <Text style={styles.txt}>School</Text>
       </TouchableOpacity>
     </View>
   );
@@ -63,6 +129,30 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: 'blue',
+    justifyContent: 'center',
+  },
+  containerChili: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: 'rgb(98, 110, 96)',
+    justifyContent: 'center',
+  },
+  containerDaisyStem: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: 'rgb(205, 163, 79)',
+    justifyContent: 'center',
+  },
+  containerFresh: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: 'rgb(74, 189, 172)',
+    justifyContent: 'center',
+  },
+  containerMuted: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: 'rgb(221, 201, 193)',
     justifyContent: 'center',
   },
   containerOlives: {
@@ -89,6 +179,28 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgb(254, 220, 210)',
     justifyContent: 'center',
   },
+  containerSchool: {
+
+  },
+  containerSeaMint: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: 'rgb(234, 227, 234)',
+    justifyContent: 'center',
+  },
+  // text color not working
+  textChili: {
+    color: 'rgb(175, 71, 60)',
+  },
+  textDaisyStem: {
+
+  },
+  textFresh: {
+
+  },
+  textMuted: {
+    backgroundColor: 'yellow',
+  },
   textOlive:{
     color: 'green',
   },
@@ -96,11 +208,44 @@ const styles = StyleSheet.create({
     color: 'rgb(239, 217, 193)',
   },
   textPlum:{
-    color: 'rgb(73, 39, 74)',
+    backgroundColor: 'rgb(73, 39, 74)',
   },
   textPowder: {
     border: '2px solid rgb(223, 116, 74)',
-    color: 'rgb(143, 216, 210)',
+    backgroundColor: 'rgb(143, 216, 210)',
+  },
+  textSchool: {
+    border: '2px solid rgb(223, 116, 74)',
+    backgroundColor: 'rgb(143, 216, 210)',
+  },
+  textSeaMint: {
+    border: '2px solid rgb(223, 116, 74)',
+    backgroundColor: 'rgb(143, 216, 210)',
+  },
+  // button colors
+  themeChili: {
+    alignSelf: 'center',
+    backgroundColor: 'rgb(60, 60, 60)',
+    margin: 15,
+    padding: 25
+  },
+  themeDaisyStem: {
+    alignSelf: 'center',
+    backgroundColor: 'rgb(55, 63, 39)',
+    margin: 15,
+    padding: 25
+  },
+  themeFresh: {
+    alignSelf: 'center',
+    backgroundColor: 'rgb(247, 135, 51)',
+    margin: 15,
+    padding: 25
+  }, 
+  themeMuted: {
+    alignSelf: 'center',
+    backgroundColor: 'rgb(244, 244, 244)',
+    margin: 15,
+    padding: 25
   },
   themeOlives: {
     alignSelf: 'center',
@@ -117,6 +262,7 @@ const styles = StyleSheet.create({
   themePlum: {
     alignSelf: 'center',
     backgroundColor: 'rgb(244, 222, 203)',
+    color: 'white',
     margin: 15,
     padding: 25
   },
@@ -125,5 +271,14 @@ const styles = StyleSheet.create({
     backgroundColor:'rgb(220, 178, 57)',
     margin: 15,
     padding: 25
-  }
+  }, 
+  themeSchool: {
+
+  },
+  themeSeaMint: {
+    alignSelf: 'center',
+    backgroundColor: 'rgb(167, 179,165)',
+    margin: 15,
+    padding: 25
+  },
 });
