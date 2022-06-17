@@ -36,7 +36,6 @@ export default function ThemeScreen() {
     setText(styles.textPlum);
   };
 
-  // start here and down fixing themes
   const freshTheme = () => {
     setContainerTheme(styles.containerFresh);
     setTheme(styles.themeFresh);

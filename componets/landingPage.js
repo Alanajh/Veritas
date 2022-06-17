@@ -17,23 +17,21 @@ const Landing = ({ navigation }) => {
       <View style={[styles.container, {
       flexDirection: "row"
     }]}>
-      <TouchableOpacity onPress={() => navigation.navigate('Test')}
-        style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}
-        
-        >
+      <TouchableOpacity  onPress={() => navigation.navigate('Test')}
+        style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}>
               <Text style={styles.txtStyle}>TESTS</Text>
-
-
         </TouchableOpacity>
 
-        <TouchableOpacity style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
+        <TouchableOpacity onPress={() => navigation.navigate('Theme')}
+          style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
               <Text style={styles.txtStyle}>THEMES</Text>
           </TouchableOpacity>
       </View>
       <View style={[styles.container, {
       flexDirection: "row"
     }]}>
-        <TouchableOpacity style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
+        <TouchableOpacity onPress={() => navigation.navigate('RoomReach')}
+          style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
               <Text style={styles.txtStyle}>ROOM REACH</Text>
         </TouchableOpacity>
         <TouchableOpacity style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}>

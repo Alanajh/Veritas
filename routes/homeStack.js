@@ -4,6 +4,8 @@ import { createAppContainer } from "react-navigation";
 import ThemeScreen from "../componets/themePage";
 import TestScreen from "../componets/testScreen";
 import Landing from "../componets/landingPage";
+import Tests from "../componets/tests";
+import RoomReach from "../componets/roomReach";
 
 const screens = {
     Home: {
@@ -13,7 +15,10 @@ const screens = {
         screen: ThemeScreen
     }, 
     Test: {
-        screen: TestScreen
+        screen: Tests
+    },
+    RoomReach: {
+        screen: RoomReach
     }
 }
 const HomeStack = createStackNavigator(screens);
