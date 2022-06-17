@@ -1,0 +1,80 @@
+import React from "react";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+// SCREENS //
+import TestScreen from "./testScreen";
+
+//export default function Landing({ navigation }){
+
+const Landing = ({ navigation }) => {
+  return (
+      
+    <View style={[styles.container, {
+      flexDirection: "column"
+    }]}>
+      <View style={[styles.container, {
+      flexDirection: "row"
+    }]}>
+      <TouchableOpacity onPress={() => navigation.navigate('Test')}
+        style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}
+        
+        >
+              <Text style={styles.txtStyle}>TESTS</Text>
+
+
+        </TouchableOpacity>
+
+        <TouchableOpacity style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
+              <Text style={styles.txtStyle}>THEMES</Text>
+          </TouchableOpacity>
+      </View>
+      <View style={[styles.container, {
+      flexDirection: "row"
+    }]}>
+        <TouchableOpacity style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
+              <Text style={styles.txtStyle}>ROOM REACH</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}>
+            <Text style={styles.txtStyle}>LIVE</Text>
+          </TouchableOpacity>
+      </View>
+      <View style={[styles.container, {
+      flexDirection: "row"
+    }]}>
+      <TouchableOpacity style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}>
+              <Text style={styles.txtStyle}>PROFILE</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
+          <Text style={styles.txtStyle}> [EMPTY] </Text>
+          </TouchableOpacity>
+      </View>
+      <View style={[styles.container, {
+      flexDirection: "row"
+    }]}>
+         <TouchableOpacity style={{ flex: 2, backgroundColor: "gray", border: " 2px solid white" }}>
+              <Text style={styles.txtStyle}>ABOUT US</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}>
+              <Text style={styles.txtStyle}>CREDITS</Text>
+          </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+    txtStyle: {
+      alignSelf: 'center',
+      fontSize: 18,
+      //fontWeight: 900,
+      margin: 50,
+      paddingTop: 30
+    }
+});
+
+export default Landing;

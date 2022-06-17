@@ -4,20 +4,10 @@ import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 export default  function TestScreen ()  {
     const [active, setIsActive] = useState(false);
 
-    const handleClick =(v)=> {
-        if( v = 'a'){
-
-        }
-        else if (v= 'b'){
-            
-        }
-    }
-
     return (
         <View>
-           {/*  <Text style={styles.btnStyle}>Hold Me</Text> */}
-            {/* <Button title='holler' style={styles.btnStyle}/> */}
             <TouchableOpacity style={styles.btnStyle}>
+                <Button title="Pagina tre"/>
                 <Text>Hold Me</Text>
             </TouchableOpacity>
         </View>

@@ -1,13 +1,20 @@
 import react from "react";
 import { Button, StyleSheet, View } from "react-native-web";
 
-export default function IntroScreen() {
+ const IntroScreen = ({ navigation}) => {
 
     return (
-        <View>{/* 
-            <Button>Olives</Button>
-            <Button>Fresh</Button>
-            <Button>Pleasant</Button> */}
+        <View>
+            <Button 
+                title="Pagina Due"
+                onPress={() => 
+                    navigation.navigate('Profile', { name: 'Jane'})
+                }    
+            />
         </View>
     )
+};
+
+const TestScreen = ({ navigation, route }) => {
+    return <Text>This is {route.params.name}'s profile</Text>;
 }
