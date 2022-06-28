@@ -1,0 +1,188 @@
+
+[
+    {
+        "title": "Famous Medical Discoveries",
+        "genre": "Medical",
+        "sub": "",
+        "value": 51,
+        "link": "yahoo.com",
+        "metadata": "medical history, "
+    },
+    {
+        "title": "United States Landmark Supreme Court Cases",
+        "genre": "Legal",
+        "sub": "United States Law",
+        "value": 3,
+        "link": "google.com",
+        "metadata": "law, legal, supreme court, case, landmark"
+    },
+    {
+        "title": "World Leaders and Their Parties",
+        "genre": "World History",
+        "sub": "Military History",
+        "value": 22,
+        "link": "cnbc.com",
+        "metadata": "military history, political parties"
+    },
+    {
+        "title": "U.S. Event, Landmarks & Monuments",
+        "genre": "American History",
+        "sub": "",
+        "value": 99,
+        "link": "",
+        "metadata": "United States, American, monuments, landmarks, historic events"
+    },
+    {
+        "title": "Great Lines from Great Works",
+        "genre": "Literature",
+        "sub": "",
+        "value": 8,
+        "link": "",
+        "metadata": "literature, writing, books"
+    },
+    {
+        "title": "Famous Discoveries of Biological Science",
+        "genre": "Biology",
+        "sub": "",
+        "value": 52,
+        "link": "",
+        "metadata": "biology, discoveries, science"
+    },
+    {
+        "title": "Flags of the Americas",
+        "genre": "Geography",
+        "sub": "",
+        "value": 91,
+        "link": "",
+        "metadata": "flags, americas, south america, countries, geography"
+    },
+    {
+        "title": "Flags of Africa",
+        "genre": "Geography",
+        "sub": "",
+        "value": 92,
+        "link": "",
+        "metadata": "flags, africa, countries, geography"
+    },
+    {
+        "title": "Flags of Europe",
+        "genre": "Geography",
+        "sub": "",
+        "value": 93,
+        "link": "",
+        "metadata": "flags, europe, nordic, countries, geography"
+    },
+    {
+        "title": "The Elements of the Periodic Table",
+        "genre": "Science",
+        "sub": "",
+        "value": 54,
+        "link": "",
+        "metadata": "elements, science, periodic, table, chemistry"
+    },
+    {
+        "title": "Famous Companies That Changed Their Names",
+        "genre": "Business",
+        "sub": "",
+        "value": 10,
+        "link": "",
+        "metadata": "business, history, companies"
+    },
+    {
+        "title": "Zodiac Signs",
+        "genre": "Astrology",
+        "sub": "",
+        "value": 11,
+        "link": "",
+        "metadata": "astrology, zodiac, signs"
+    },
+    {
+        "title": "Music of the 90s",
+        "genre": "Music",
+        "sub": "",
+        "value": 12,
+        "link": "",
+        "metadata": "music, 90s, r&b, sound"
+    },
+    {
+        "title": "Sounds of Motown",
+        "genre": "Music",
+        "sub": "",
+        "value": 13,
+        "link": "",
+        "metadata": "sound, motown, music"
+    },
+    {
+        "title": "The Siege of/at Yorktown",
+        "genre": "American History",
+        "sub": "",
+        "value": 94,
+        "link": "",
+        "metadata": "american, history, battles, siege, yorktown"
+    },
+    {
+        "title": "Famous Characters From Literature",
+        "genre": "Literature",
+        "sub": "",
+        "value": 82,
+        "link": "",
+        "metadata": "characters, literature, reading, writing, books"
+    }
+    ,
+    {
+        "title": "Famous Artist and Their Art",
+        "genre": "Art",
+        "sub": "",
+        "value": 16,
+        "link": "",
+        "metadata": "art, artists, creative, arts, history"
+    }
+    ,
+    {
+        "title": "Greek Mythology",
+        "genre": "Mythology",
+        "sub": "",
+        "value": 2,
+        "link": "",
+        "metadata": "greek, greece, myth, mythology, religion, history"
+    },
+    {
+        "title": "Identifying Algebraic Equations",
+        "genre": "Mathematics",
+        "sub": "",
+        "value": 18,
+        "link": "",
+        "metadata": "math, algebra, equations"
+    },
+    {
+        "title": "Events That Shaped The U.S. Presidencies",
+        "genre": "United States History",
+        "sub": "",
+        "value": 9.1,
+        "link": "",
+        "metadata": "United States, history, events, president, usa "
+    },
+    {
+        "title": "Immortals of Greek Mythology",
+        "genre": "Greek Mythology",
+        "sub": "",
+        "value": 398.2,
+        "metadata": "greek, mythology, history, religion, myth"
+    },
+    {
+        "title": "Government Conspiracies - Health & Medicine",
+        "genre": "Conspiracies",
+        "sub": "",
+        "value": 1.981,
+        "link": "",
+        "metadata": "conspiracy, government, history, health, medicine, secrets"
+    },
+    {
+        "title": "Government Conspiracies - Military",
+        "genre": "Conspiracies",
+        "sub": "",
+        "value": 1.982,
+        "link": "",
+        "metadata": "conspiracy, government, history, military, secrets"
+    }
+  ]
