@@ -88,7 +88,7 @@
                         "sub": "",
                         "value": 10,
                         "link": "",
-                        "metadata": "business, history, companies"
+                        "metadata": "business, history, companies, finance"
                     },
                     {
                         "title": "Zodiac Signs",
@@ -186,6 +186,70 @@
                         "value": 1.982,
                         "link": "",
                         "metadata": "conspiracy, government, history, military, secrets"
+                    },
+                    {
+                        "title": "Companies and Their Owners",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": ,
+                        "link": "",
+                        "metadata": "Business History, Business, History, Leaders, Finance"
+                    },
+                    {
+                        "title": "Ancient Civilizations and Their Descendents",
+                        "genre": "World History",
+                        "sub": "",
+                        "value": ,
+                        "link": "",
+                        "metadata": "World, History, Culture, Race"
+                    },
+                    {
+                        "title": "Cultural Letters",
+                        "genre": "Linguistics",
+                        "sub": "",
+                        "value": ,
+                        "link": "",
+                        "metadata": "Letters, Language, Linguistics, Phoenetics"
+                    },
+                    {
+                        "title": "Historical Scandals of the United Kingdom",
+                        "genre": "History",
+                        "sub": "",
+                        "value": ,
+                        "link": "",
+                        "metadata": "British, United Kingdom, U.K., England, Scandal"
+                    },
+                    {
+                        "title": "The Market Crash of 1929",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": ,
+                        "link": "",
+                        "metadata": "Business, History, American History, Finance"
+                    },
+                    {
+                        "title": "The History of Ellis Island",
+                        "genre": "History",
+                        "sub": "",
+                        "value": ,
+                        "link": "",
+                        "metadata": "American History, New York, Island, "
+                    },
+                    {
+                        "title": "Monuments Around The World",
+                        "genre": "History",
+                        "sub": "World History",
+                        "value": ,
+                        "link": "",
+                        "metadata": "history, world history, monuments, landmarks"
+                    },
+                    {
+                        "title": "",
+                        "genre": "",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": ""
                     }
                   ]
     }
