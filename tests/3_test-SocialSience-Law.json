@@ -1,0 +1,279 @@
+[
+    {
+        "title": "United States Landmark Supreme Court Cases",
+        "test_id": 3,
+        "genre": "Legal History",
+        "genreId": "Law",
+        "head": "SocialScience",
+        "target": [
+            {
+                "question": "Brown v. board of Education.",
+                "option_1": "Prayer in Schools",
+                "option_2": "Separate But Equal",
+                "option_3": "Teachers right to discipline children.",
+                "option_4": "Required standardized testing for all students."
+            }
+        ],
+        "answer": "Separate But Equal",
+        "img": "",
+        "points": 34,
+        "hint_1": "1954",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Plessy v. Ferguson",
+                "option_1": "Enforcement of Jim Crow laws.",
+                "option_2": "State-mandated segregation laws did not violate the equal protection clause of the fourth amendment.",
+                "option_3": "Black barbers cannot tend to white customers.",
+                "option_4": "Segregated bus seating."
+            }
+        ],
+        "answer": "State-mandated segregation laws did not violate the equal protection clause of the fourth amendment.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1896",
+        "hint_2": "Jim Crow laws are constitutional under this related doctrine",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Gibbons v. Ogden",
+                "option_1": "When a federal and state law are in conflict, the federal law is supreme.",
+                "option_2": "Businesses must pay income tax as they earn and receive income, and then file a tax return at the end of the year.",
+                "option_3": "Companies that have employees are expected to pay taxes related to having staff on their payroll. These include Social Security and Medicare taxes, federal income tax withholding, and federal unemployment tax.",
+                "option_4": "Makes it agains the law to discuss prices with competitors—even if it affects a small marketplace."
+            }
+        ],
+        "answer": "When a federal and state law are in conflict, the federal law is supreme.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1824",
+        "hint_2": "Congress and New York had both passed laws regulating the steamboat industry. ",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Dred Scott v. Sandford",
+                "option_1": "A runaway slave would be required to present documentation of freedom upon request.",
+                "option_2": "The Constitution does not consider slaves to be U.S. citizens. Rather, they are constitutionally protected property of their masters.",
+                "option_3": " federal law that guaranteed workers the right to organize and choose their own union leaders without company interference.",
+                "option_4": "required all private companies that won contracts on any significant public-works construction projects to pay workers the so-called 'prevailings' wage."
+            }
+        ],
+        "answer": "The Constitution does not consider slaves to be U.S. citizens. Rather, they are constitutionally protected property of their masters.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1857",
+        "hint_2": "f “Once free, always free.”",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Schenck v. United States",
+                "option_1": "It also prevented companies from firing workers for joining a union and outlawed so-called yellow-dog contracts, which required prospective employees to sign a promise not to join a union.",
+                "option_2": "Guaranteed an eight-hour workday, a minimum wage, a 40-hour work week, and time-and-a-half overtime.",
+                "option_3": "Speech that presents a “clear and present danger” to the security of the United States is in violation of the principle of free speech as protected by the First Amendment to the Constitution.",
+                "option_4": "Intended to protect against arbitrary arrests as well as against unreasonable searches."
+            }
+        ],
+        "answer": "Speech that presents a “clear and present danger” to the security of the United States is in violation of the principle of free speech as protected by the First Amendment to the Constitution.",
+        "img": "",
+        "points": 34,
+        "hint_1": "The general secretary of the Socialist Party was arrested for distributing literature discouraging young men from enlisting in the armed forces. ",
+        "hint_2": "1919",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Mapp v. Ohio",
+                "option_1": "Established the right to counsel and a court-appointed attorney for defendants who can’t afford to hire their own lawyer.",
+                "option_2": "Evidence that is illegally obtained by the state may not be used against a defendant in court.",
+                "option_3": "It is explicitly the province and duty of the Judicial Department to say what the law is.",
+                "option_4": "The Court held that it is the role of the federal government to regulate commerce and that state governments cannot develop their own commerce-regulating laws."
+            }
+        ],
+        "answer": "Evidence that is illegally obtained by the state may not be used against a defendant in court.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1961",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Engel v. Vitale",
+                "option_1": "It established the federal government’s implied powers over states.",
+                "option_2": "Passed laws prohibiting anyone except Native Americans from living on Native American land.",
+                "option_3": "A state can regulate private industries when it affects the public.",
+                "option_4": "Public institutions (i.e., a school system) cannot require prayer."
+            }
+        ],
+        "answer": "Public institutions (i.e., a school system) cannot require prayer.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1962",
+        "hint_2": "Athiest",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Miranda v. Arizona",
+                "option_1": "Protection against illegal search and seizure.",
+                "option_2": "You have the right to remain silent …",
+                "option_3": "Established the right to due process.",
+                "option_4": "Established law enforcements ability to do polygraph tests."
+            }
+        ],
+        "answer": "You have the right to remain silent …",
+        "img": "",
+        "points": 34,
+        "hint_1": "1966",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "San Antonio Independent School District v. Rodriguez",
+                "option_1": "The Constitutional Right to Bear Arms.",
+                "option_2": "The Constitution does not guarantee a fundamental right to education.",
+                "option_3": "Established the Constitutional right to free speach.",
+                "option_4": "Allowed states to utilize taxs dollars for religious educational institutions."
+            }
+        ],
+        "answer": "The Constitution does not guarantee a fundamental right to education.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1973",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Roe v. Wade",
+                "option_1": "The Constitutionally implied right to privacy protects a woman’s choice in matters of abortion.",
+                "option_2": "Prohibits the mailing of unsolicited advertisements for contraceptives.",
+                "option_3": "The health of the patient and the welfare of society may be promoted in certain cases by the sterilization of mental defectives, under careful safeguard, etc.",
+                "option_4": "Makes it a crime (1) for any person to sell or distribute any contraceptive of any kind to a minor under 16."
+            }
+        ],
+        "answer": "The Constitutionally implied right to privacy protects a woman’s choice in matters of abortion.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1973",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Hamer v. Campbell",
+                "option_1": "It held that the Constitution requires that 'as nearly as is practicable one man's vote in a congressional election is to be worth as much as another's.",
+                "option_2": "It argued that the right to vote in state elections is implicit and that it may not constitutionally be conditioned upon the payment of a tax or fee.",
+                "option_3": "A Civil Rights case brought against the circuit clerk of Mississippi, for denying Black people the right to register and vote.",
+                "option_4": "Granted the right of citizenship to African Americans."
+            }
+        ],
+        "answer": "A Civil Rights case brought against the circuit clerk of Mississippi, for denying Black people the right to register and vote.",
+        "img": "",
+        "points": 34,
+        "hint_1": "",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Tinker v. Des Moines",
+                "option_1": "Claiming that prohibiting the sale of 'nonintoxicating' 3.2% beer to males under the age of 21 and to females under the age of 18 constituted a gender-based discrimination that denied to males 18-20 years of age the equal protection of the laws.",
+                "option_2": "Made it illegal to encourage or prompt the processing of an abortion.",
+                "option_3": "Allowed students their right to free speech in public schools, by wearing black armbands to symbolize anti-war political protest.",
+                "option_4": "Requires every parent, guardian, or other person having control or charge or custody of a child between 8 and 16 years to send him to a public school. Failure so to do is declared a misdemeanor."
+            }
+        ],
+        "answer": "Allowed students their right to free speech in public schools, by wearing black armbands to symbolize anti-war political protest.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1969",
+        "hint_2": "Make Love Not War!",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Loving v. Virginia",
+                "option_1": "Laws banning interracial marriage violate the Equal Protection and Due Process Clauses of the Fourteenth Amendment to the U.S. Constitution.",
+                "option_2": "The fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution.",
+                "option_3": "",
+                "option_4": ""
+            }
+        ],
+        "answer": "Laws banning interracial marriage violate the Equal Protection and Due Process Clauses of the Fourteenth Amendment to the U.S. Constitution.",
+        "img": "",
+        "points": 34,
+        "hint_1": "1967",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Regents of the U. of California v. Bakke",
+                "option_1": "",
+                "option_2": "A university's use of racial 'quotas' in its admissions process was unconstitutional.",
+                "option_3": "",
+                "option_4": ""
+            }
+        ],
+        "answer":"A university's use of racial 'quotas' in its admissions process was unconstitutional.",
+        "img": "",
+        "points": 34,
+        "hint_1": "This case explores the legal concept of equal protection.",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Obergefell v. Hodges",
+                "option_1": "",
+                "option_2": "",
+                "option_3": "",
+                "option_4": "Laws banning interracial marriage violate the Equal Protection and Due Process Clauses of the Fourteenth Amendment to the U.S. Constitution."
+            }
+        ],
+        "answer": "Laws banning interracial marriage violate the Equal Protection and Due Process Clauses of the Fourteenth Amendment to the U.S. Constitution.",
+        "img": "",
+        "points": 34,
+        "hint_1": "",
+        "hint_2": "",
+        "hint_3": ""
+    },
+    {
+        "target": [
+            {
+                "question": "Griswold v. Connecticut",
+                "option_1": "",
+                "option_2": "A state's ban on the use of contraceptives violated the right to marital privacy.",
+                "option_3": "",
+                "option_4": ""
+            }
+        ],
+        "answer": "A state's ban on the use of contraceptives violated the right to marital privacy.",
+        "img": "",
+        "points": 34,
+        "hint_1": "",
+        "hint_2": "",
+        "hint_3": ""
+    }
+]

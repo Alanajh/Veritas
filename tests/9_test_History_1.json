@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Events That Shaped A Presidency",
+        "test_id": 9,
+        "genre": "United States History",
+        "genreId": "US",
+        "head": "History",
+        "target": [
+            {
+                "question": "Theodore Roosevelt",
+                "option_1": "Creator of The League of Nation",
+                "option_2": "Civil Rights Movement",
+                "option_3": "The Square Deal",
+                "option_4": "The New Deal"
+            }
+        ],
+        "answer": "The Square Deal",
+        "img": "./media/theodore_roosevelt_1.jpg",
+        "points": 34,
+        "hint_1": "A domestic program, which reflected his three maanswers goals: conservation of natural resources, control of corporations, and consumer protection.",
+        "hint_2": "Trust Buster: A term used to describe Theodore Roosevelt because of his aggressive use of U.S. antitrust laws to break up large business monopolies.",
+        "hint_3": "The leader of the Progressive movement with a shapely plan."
+    },
+    {
+        "test_id": 2,
+        "target": [
+            {
+                "question": "George W. Bush",
+                "option_1": "Creation of HUD",
+                "option_2": "Halt student loan interest",
+                "option_3": "First female president",
+                "option_4": "911"
+            }
+        ],
+        "answer": "911",
+        "img": "",
+        "points": 34,
+        "hint_1": "Flight 93",
+        "hint_2": "Osama Bin Laden - Al Qaeda",
+        "hint_3": "The North and South Towers of The World Trade Center"
+    },
+    {
+        "test_id": 3,
+        "target": [
+            {
+                "question": "Donald Trump",
+                "option_1": "",
+                "option_2": "Passed The Prohibition Act",
+                "option_3": "Cured Bird Flu",
+                "option_4": "Halt Student Loans"
+            }
+        ],
+        "answer": "Halt Student Loans",
+        "img": "",
+        "points": 34,
+        "hint_1": "Towers",
+        "hint_2": "Osama Bin Laden - Al Qaeda",
+        "hint_3": "The North and South Towers of The World Trade Center"
+    },
+    {
+        "test_id": 4,
+        "target": [
+            {
+                "question": "Barack Obama",
+                "option_1": "Signed the Turkish Peace Treaty",
+                "option_2": "Created The Affordable Care Act",
+                "option_3": "Closed Guantanamo Bay",
+                "option_4": "Abolished Restrictions on Medical Research and the Right to Choose"
+            }
+        ],
+        "answer": "Created The Affordable Care Act",
+        "img": "",
+        "points": 34,
+        "hint_1": "Yes We Can",
+        "hint_2": "44",
+        "hint_3": "Yes We Can"
+    }
+]

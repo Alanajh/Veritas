@@ -2,10 +2,10 @@ import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 
 import ThemeScreen from "../componets/themePage";
-import TestScreen from "../componets/testScreen";
+import TestTemplate1 from "../componets/test_template_1";
 import Landing from "../componets/landingPage";
-import Tests from "../componets/tests";
 import RoomReach from "../componets/roomReach";
+import TestScreen from "../componets/testScreen";
 
 const screens = {
     Home: {
@@ -15,10 +15,13 @@ const screens = {
         screen: ThemeScreen
     }, 
     Test: {
-        screen: Tests
+        screen: TestTemplate1
     },
     RoomReach: {
         screen: RoomReach
+    },
+    Screen: {
+        screen: TestScreen
     }
 }
 const HomeStack = createStackNavigator(screens);

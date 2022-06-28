@@ -1,20 +1,53 @@
 import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { useState } from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-//SCREENS //
-/* import IntroScreen from "./componets/introScreen";
-import TestScreen from "./componets/testScreen";
-import Landing from "./componets/landingPage";
- */
-const Stack = createNativeStackNavigator();
+import { useEffect, useState } from "react";
 
 export default function ThemeScreen() {
+
   const [theme, setTheme] = useState(styles.themeOlives);
   const [containerTheme, setContainerTheme] = useState(styles.containerOlives);
   const [btnTxt, setText] = useState(styles.textOlive);
+  let STORAGE_KEY = '@user_input';
 
+  //const App = () => {
+    const [input, setInput] = useState();
+    // ...
+  //};
+/* 
+  const saveData = async () => {
+    try {
+      AsyncStorage.setItem(STORAGE_KEY, age)
+      alert('Data successfully saved')
+    } catch (e) {
+      alert('Failed to save the data to the storage 11')
+    }
+  };
+
+  const readData = async () => {
+    try {
+      const value = AsyncStorage.getItem(STORAGE_KEY);
+  
+      if (value !== null) {
+        setInput(value);
+      }
+    } catch (e) {
+      alert('Failed to fetch the input from storage 22');
+    } 
+  }; */
+
+/*   useEffect(() => {
+    readData();
+  }, []); */
+
+  const onChangeText = value => setInput(value);
+
+ /*  const onSubmitEditing = () => {
+    if (!input) return;
+  
+    saveData(input);
+    setInput('');
+  };
+
+   */
   const oliveTheme = () => {
     setContainerTheme(styles.containerOlives);
     setTheme(styles.themeOlives);
@@ -35,37 +68,31 @@ export default function ThemeScreen() {
     setTheme(styles.themePlum);
     setText(styles.textPlum);
   };
-
   const freshTheme = () => {
     setContainerTheme(styles.containerFresh);
     setTheme(styles.themeFresh);
     setText(styles.textFresh);
   };
-
   const chiliTheme = () => {
     setContainerTheme(styles.containerChili);
     setTheme(styles.themeChili);
     setText(styles.textChili);
   };
-
   const mutedTheme = () => {
     setContainerTheme(styles.containerMuted);
     setTheme(styles.themeMuted);
     setText(styles.textMuted);
   };
-
   const seaMintTheme = () => {
     setContainerTheme(styles.containerSeaMint);
     setTheme(styles.themeSeaMint);
     setText(styles.textSeaMint);
   };
-
   const daisyStemTheme = () => {
     setContainerTheme(styles.containerDaisyStem);
     setTheme(styles.themeDaisyStem);
     setText(styles.textDaisyStem);
   };
-
   const schoolTheme = () => {
     setContainerTheme(styles.containerSchool);
     setTheme(styles.themeSchool);
@@ -75,7 +102,7 @@ export default function ThemeScreen() {
     <View style={containerTheme}>
       <Button title="back"/>
       {/* <TestScreen /> */}
-      <TouchableOpacity style={theme} id={1} onPress={() => oliveTheme()}>
+      <TouchableOpacity style={theme} id={1} onPress={() => onChangeText/* oliveTheme() */}>
         <Text style={btnTxt}>Olives</Text>
       </TouchableOpacity>
       {/* <TouchableOpacity style={theme} id={2} onPress={() => pleasantTheme()}>

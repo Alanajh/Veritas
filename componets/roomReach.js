@@ -6,7 +6,7 @@ export default function RoomReach(){
         <View>
             <Text>Room Reach</Text>
             <Button 
-                onPress={}
+                //onPress={}
                 title={'Go Back'}/>
         </View>
     )

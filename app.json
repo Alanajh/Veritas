@@ -18,7 +18,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
     },
     "android": {
       "adaptiveIcon": {
@@ -29,5 +29,10 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+  }
+  ,
+  "infoPlist": {
+    "NSAppTransportSecurity": "true",
+    "NSCameraUsageDescription": "This app uses the camera to scan barcodes on event tickets."
   }
 }

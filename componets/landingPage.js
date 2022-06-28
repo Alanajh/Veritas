@@ -1,12 +1,5 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-// SCREENS //
-import TestScreen from "./testScreen";
-
-//export default function Landing({ navigation }){
 
 const Landing = ({ navigation }) => {
   return (
@@ -17,7 +10,7 @@ const Landing = ({ navigation }) => {
       <View style={[styles.container, {
       flexDirection: "row"
     }]}>
-      <TouchableOpacity  onPress={() => navigation.navigate('Test')}
+      <TouchableOpacity  onPress={() => navigation.navigate('Screen')}
         style={{ flex: 2, backgroundColor: "lightgray", border: " 2px solid white" }}>
               <Text style={styles.txtStyle}>TESTS</Text>
         </TouchableOpacity>
