@@ -191,7 +191,7 @@
                         "title": "Companies and Their Owners",
                         "genre": "Business",
                         "sub": "",
-                        "value": ,
+                        "value": 0,
                         "link": "",
                         "metadata": "Business History, Business, History, Leaders, Finance"
                     },
@@ -199,7 +199,7 @@
                         "title": "Ancient Civilizations and Their Descendents",
                         "genre": "World History",
                         "sub": "",
-                        "value": ,
+                        "value": 0,
                         "link": "",
                         "metadata": "World, History, Culture, Race"
                     },
@@ -207,7 +207,7 @@
                         "title": "Cultural Letters",
                         "genre": "Linguistics",
                         "sub": "",
-                        "value": ,
+                        "value": 0,
                         "link": "",
                         "metadata": "Letters, Language, Linguistics, Phoenetics"
                     },
@@ -215,7 +215,7 @@
                         "title": "Historical Scandals of the United Kingdom",
                         "genre": "History",
                         "sub": "",
-                        "value": ,
+                        "value": 0,
                         "link": "",
                         "metadata": "British, United Kingdom, U.K., England, Scandal"
                     },
@@ -223,7 +223,7 @@
                         "title": "The Market Crash of 1929",
                         "genre": "Business",
                         "sub": "",
-                        "value": ,
+                        "value": 0,
                         "link": "",
                         "metadata": "Business, History, American History, Finance"
                     },
@@ -231,7 +231,7 @@
                         "title": "The History of Ellis Island",
                         "genre": "History",
                         "sub": "",
-                        "value": ,
+                        "value": 9,
                         "link": "",
                         "metadata": "American History, New York, Island, "
                     },
@@ -239,7 +239,7 @@
                         "title": "Monuments Around The World",
                         "genre": "History",
                         "sub": "World History",
-                        "value": ,
+                        "value": 9,
                         "link": "",
                         "metadata": "history, world history, monuments, landmarks"
                     },
