@@ -250,7 +250,23 @@
                         "value": 1.982,
                         "link": "",
                         "metadata": "movies, characters, disney, arts"
-                    }
+                    },
+                    {
+                        "title": "The Red Scare",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "history, politics, ideology"
+                    },
+                    {
+                        "title": "Italian I - Greetings & Numbers",
+                        "genre": "Language",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "italian, language, arts, foreign, linguistic"
+                    }  
                   ]
     }
 }
