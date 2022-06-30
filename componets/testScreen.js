@@ -1,22 +1,23 @@
 import react, { useState, useEffect } from "react";
+import Icon from 'react-native-vector-icons/Ionicons';
+import FontawesomeIcon from 'react-native-vector-icons/FontAwesome5'
 import { 
     FlatList, 
-    SafeAreaView, 
     StyleSheet, 
     Text, 
     TextInput,
     TouchableOpacity,
     View
-} from 'react-native'
+} from 'react-native';
 
 export default  function TestScreen ()  {
     const [titles, setTitles] = useState([]);
     
-    const getAPI = async () => {
+   useEffect (() => {
         fetch('https://raw.githubusercontent.com/Alanajh/Veritas/main/testing_test_titles.json')
         .then(response => response.json())
         .then (data2 => setTitles(data2.data.tests))
-    };
+    });
 
       const ItemDivider = () => {
         return (
@@ -30,36 +31,44 @@ export default  function TestScreen ()  {
         );
       }
 
-    return (
-        <SafeAreaView>
-            <View     >
-                <Text style={styles.titleTxt}> Tests </Text>
-            </View>
-            
-            <View style={styles.input}>
+    return (  
+            <View style={styles.container}>
+
             <TextInput 
                underlineColorAndroid = "transparent"
-               placeholder = "Search"
-               placeholderTextColor = "#9a73ef"
                autoCapitalize = "none"/>
+              
                <TouchableOpacity 
-                    onPress={getAPI}
-                    style={ styles.flat }>
+                   // onPress={getAPI}
+                    style={{ 
+                    backgroundColor: "green", 
+                    alignSelf: 'right',
+                    padding: 8,
+                    width: '100%' }}>
               <Text style={styles.txtStyle}>search</Text>
+               </TouchableOpacity>
+               <TouchableOpacity 
+                   // onPress={getAPI}
+                    style={{ 
+                    backgroundColor: "green", 
+                    alignSelf: 'right',
+                    padding: 8,
+                    width: '100%' }}>
+              <Text style={styles.txtStyle}></Text>
                </TouchableOpacity>
 
                <FlatList
-                style={styles.flat}
-                data={titles}
-                renderItem={({ item }) => <Text style={styles.listTxt}> {item.title}</Text>}
-               // keyExtractor={(index) => index.toString()}
-                ItemSeparatorComponent={ItemDivider}
-                 />
+                    style={styles.flat}
+                    data={titles}
+                    renderItem={({ item }) => <Text style={styles.listTxt}> 
+                        <Icon name="chevron-back-outline" size={15} color="blue" />
+                        {item.title}
+                        </Text>}
+                    keyExtractor={(item, index) => index.toString()}
+                    ItemSeparatorComponent={ItemDivider}
+                />
+                
             </View>
-               
-               
-        
-        </SafeAreaView>
     )
 }
 
@@ -71,12 +80,17 @@ const styles = StyleSheet.create({
         margin: 15,
         padding: 25
     },
-    flat: {
-        padding: 15,
-    },
-    input:{
+    container:{
         backgroundColor: 'lightgray',
-        padding: 8
+        height: '95%',
+        padding: 8,
+    },
+    container2: {
+        flex: 1,
+        padding: 20,
+      },
+    flat: {
+        paddingBottom: 15,
     },
     l: {
         borderColor: 'lightgray',
@@ -96,10 +110,14 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         margin: 15
     },
-    
     titleTxt: { 
+        alignSelf: 'center',
         backgroundColor: 'lightblue',
         fontWeight: '500',
+        padding: 10,
         width: '100%'
+    },
+    txtStyle:{
+        color: 'lightgray',
     }
 })
