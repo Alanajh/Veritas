@@ -88,7 +88,7 @@
                         "sub": "",
                         "value": 10,
                         "link": "",
-                        "metadata": "business, history, companies"
+                        "metadata": "business, history, companies, finance"
                     },
                     {
                         "title": "Zodiac Signs",
@@ -186,7 +186,87 @@
                         "value": 1.982,
                         "link": "",
                         "metadata": "conspiracy, government, history, military, secrets"
-                    }
+                    },
+                    {
+                        "title": "Companies and Their Owners",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "Business History, Business, History, Leaders, Finance"
+                    },
+                    {
+                        "title": "Ancient Civilizations and Their Descendents",
+                        "genre": "World History",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "World, History, Culture, Race"
+                    },
+                    {
+                        "title": "Cultural Letters",
+                        "genre": "Linguistics",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "Letters, Language, Linguistics, Phoenetics"
+                    },
+                    {
+                        "title": "Historical Scandals of the United Kingdom",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "British, United Kingdom, U.K., England, Scandal"
+                    },
+                    {
+                        "title": "The Market Crash of 1929",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "Business, History, American History, Finance"
+                    },
+                    {
+                        "title": "The History of Ellis Island",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 9,
+                        "link": "",
+                        "metadata": "American History, New York, Island, "
+                    },
+                    {
+                        "title": "Monuments Around The World",
+                        "genre": "History",
+                        "sub": "World History",
+                        "value": 9,
+                        "link": "",
+                        "metadata": "history, world history, monuments, landmarks"
+                    },
+                    {
+                        "title": "Characters from Disney Movies",
+                        "genre": "Arts",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "movies, characters, disney, arts"
+                    },
+                    {
+                        "title": "The Red Scare",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "history, politics, ideology"
+                    },
+                    {
+                        "title": "Italian I - Greetings & Numbers",
+                        "genre": "Language",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "italian, language, arts, foreign, linguistic"
+                    }  
                   ]
     }
 }
