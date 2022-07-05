@@ -1,57 +1,39 @@
 [
     {
-        "title": "flags of the Americas",
-        "genre": "Geography",
-        "testId": 920,
-        "target": [
+        "tests": [
             {
-                "question": "Who",
-                "option_1": "us",
-                "option_2": "peru",
-                "option_3": "mexico",
-                "option_4": "cuba"
+                "title": "Flags of the Americas",
+                "genre": "Geography",
+                "testId": 920,
+                "target": [
+                    {
+                        "question": "Who",
+                        "option_1": "us",
+                        "option_2": "peru",
+                        "option_3": "mexico",
+                        "option_4": "cuba",
+                        "answer": "",
+                        "img": "",
+                        "points": 34,
+                        "hint_1": "",
+                        "hint_2": "",
+                        "hint_3": ""
+                    },
+                    {
+                        "question": "What",
+                        "option_1": "Canada",
+                        "option_2": "Honduras",
+                        "option_3": "Ecuador",
+                        "option_4": "cuba",
+                        "answer": "",
+                        "img": "",
+                        "points": 34,
+                        "hint_1": "",
+                        "hint_2": "",
+                        "hint_3": ""
+                    }
+                ]
             }
-        ],
-        "answer": "",
-        "img": "",
-        "points": 34,
-        "hint_1": "",
-        "hint_2": "",
-        "hint_3": ""
-    },
-    {
-        "target": [
-            {
-                "question": "what",
-                "option_1": "mexico",
-                "option_2": "argentina",
-                "option_3": "brazil",
-                "option_4": "panama"
-            }
-        ],
-        "answer": "",
-        "img": "",
-        "points": 34,
-        "hint_1": "",
-        "hint_2": "",
-        "hint_3": ""
-    },
-    {
-        "target": [
-            {
-                "question": "When",
-                "option_1": "here",
-                "option_2": "there",
-                "option_3": "aqui",
-                "option_4": "stuff"
-            }
-        ],
-        "answer": "",
-        "img": "",
-        "points": 34,
-        "hint_1": "",
-        "hint_2": "",
-        "hint_3": ""
+        ]
     }
-   
-    ]
+]
