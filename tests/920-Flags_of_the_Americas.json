@@ -1,39 +1,24 @@
-[
-    {
-        "tests": [
-            {
-                "title": "Flags of the Americas",
-                "genre": "Geography",
-                "testId": 920,
-                "target": [
+
+{
+    "data": {
+        "tests": 
+            [
                     {
-                        "question": "Who",
-                        "option_1": "us",
-                        "option_2": "peru",
-                        "option_3": "mexico",
-                        "option_4": "cuba",
-                        "answer": "",
-                        "img": "",
-                        "points": 34,
-                        "hint_1": "",
-                        "hint_2": "",
-                        "hint_3": ""
-                    },
-                    {
-                        "question": "What",
-                        "option_1": "Canada",
-                        "option_2": "Honduras",
-                        "option_3": "Ecuador",
-                        "option_4": "cuba",
-                        "answer": "",
-                        "img": "",
-                        "points": 34,
-                        "hint_1": "",
-                        "hint_2": "",
-                        "hint_3": ""
+                        "title": "Flags of the America",
+                        "genre": "Geography",
+                        "target": [
+                            {
+                            "q":"who?",
+                            "c1":"yup",
+                            "c2":"duh"
+                            },
+                             {
+                            "q":"whaaaaawwww?",
+                            "c1":"yup kgvhv",
+                            "c2":"duh gvtr"
+                             }
+                         ]
                     }
-                ]
-            }
-        ]
+              ]
     }
-]
+}
