@@ -37,7 +37,7 @@ export default function MultipleOptions(){
             <View style={[styles.containerMultiple, {
             flex: 5, flexDirection: "column", backgroundColor: "lightgray"
             }]}>
-                <Text>{questions.title}</Text>
+                <Text id='title'>{questions.title}</Text>
                  <RadioGroup 
                     style={styles.radioGroup}
                     radioButtons={radioButtons} 
