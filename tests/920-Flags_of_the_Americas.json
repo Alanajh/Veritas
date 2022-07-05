@@ -8,17 +8,121 @@
                         "genre": "Geography",
                         "target": [
                             {
-                            "q":"who?",
-                            "c1":"yup",
-                            "c2":"duh"
+                                "q": "https://countryflagsapi.com/png/br",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "Peru",
+                                "c4": "Cayman Islands",
+                                "answer": "Brazil"
                             },
-                             {
-                            "q":"whaaaaawwww?",
-                            "c1":"yup kgvhv",
-                            "c2":"duh gvtr"
-                             }
+                            {
+                                "q": "https://countryflagsapi.com/png/do",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "Peru",
+                                "c4": "Cayman Islands",
+                                "answer": "Dominican Republic"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/pe",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "Peru",
+                                "c4": "Cayman Islands",
+                                "answer": "Peru"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/pr",
+                                "c1": "Puerto Rico",
+                                "c2":"Cuba",
+                                "c3": "Mexico",
+                                "c4": "Argintina",
+                                "answer": "Puerto Rico"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/uy",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "Uruguay",
+                                "c4": "Cayman Islands",
+                                "answer": "Uruguay"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "Uruguay",
+                                "c4": "Guatemala",
+                                "answer": "Guatemala"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/gd",
+                                "c1": "Brazil",
+                                "c2": "Grenada",
+                                "c3": "Uruguay",
+                                "c4": "Cayman Islands",
+                                "answer": "Grenada"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/us",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "United States",
+                                "c4": "Cayman Islands",
+                                "answer": "United States"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/uy",
+                                "c1": "Brazil",
+                                "c2":"Ecuador",
+                                "c3": "Uruguay",
+                                "c4": "Cayman Islands",
+                                "answer": "Uruguay"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/tt",
+                                "c1": "Trinidad & Tobago",
+                                "c2":"U.S. Virgin Islands",
+                                "c3": "El Salvador",
+                                "c4": "Cayman Islands",
+                                "answer": "Trinidad & Tobago"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/mx",
+                                "c1": "Guyana",
+                                "c2":"Honduras",
+                                "c3": "Mexico",
+                                "c4": "Martinique",
+                                "answer": "Mexico"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/ai",
+                                "c1": "Aruba",
+                                "c2":"Belize",
+                                "c3": "Jamaica",
+                                "c4": "Anguilla",
+                                "answer": "Anguilla"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/jm",
+                                "c1": "Canada",
+                                "c2":"Jamaica",
+                                "c3": "Bolivia",
+                                "c4": "Saint Lucia",
+                                "answer": "Jamaica"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/ni",
+                                "c1": "Nicaragua",
+                                "c2":"U.S. Virgin Islands",
+                                "c3": "El Salvador",
+                                "c4": "Saint Martin",
+                                "answer": "Nicaragua"
+                            }
                          ]
                     }
               ]
     }
 }
+
+//country flags api (https://www.countryflagsapi.com)
