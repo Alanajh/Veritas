@@ -1,27 +1,24 @@
 
-[
-    {
-        "title": "Flags of the Americas",
-        "genre": "Geograph",
-        "sub": "",
-        "value": 51,
-        "link": "yahoo.com",
-        "metadata": "medical history, "
-    },
-    {
-        "title": "United States Landmark Supreme Court Cases",
-        "genre": "Legal",
-        "sub": "United States Law",
-        "value": 3,
-        "link": "google.com",
-        "metadata": "law, legal, supreme court, case, landmark"
-    },
-    {
-        "title": "World Leaders and Their Parties",
-        "genre": "World History",
-        "sub": "Military History",
-        "value": 22,
-        "link": "cnbc.com",
-        "metadata": "military history, political parties"
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Flags of the America",
+                        "genre": "Geography",
+                        "target": [
+                            {
+                            "q":"who?",
+                            "c1":"yup",
+                            "c2":"duh"
+                            },
+                             {
+                            "q":"whaaaaawwww?",
+                            "c1":"yup kgvhv",
+                            "c2":"duh gvtr"
+                             }
+                         ]
+                    }
+              ]
     }
-  ]
+}
