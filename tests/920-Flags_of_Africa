@@ -1,0 +1,128 @@
+
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Flags of the America",
+                        "genre": "Geography",
+                        "target": [
+                            {
+                                "q": "https://countryflagsapi.com/png/zw",
+                                "c1": "Lesotho",
+                                "c2":"Zambia",
+                                "c3": "Mozambique",
+                                "c4": "Zimbabwe",
+                                "answer": "Zimbabwe"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/ke",
+                                "c1": "Jordan",
+                                "c2":"Kenya",
+                                "c3": "Niger",
+                                "c4": "Egypt",
+                                "answer": "Kenya"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/tg",
+                                "c1": "Togo",
+                                "c2": "Senegal",
+                                "c3": "Benin",
+                                "c4": "Mali",
+                                "answer": "Togo"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/td",
+                                "c1": "South Sudan",
+                                "c2": "Gabon",
+                                "c3": "Mexico",
+                                "c4": "Chad",
+                                "answer": "Chad"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/sd",
+                                "c1": "Malawi",
+                                "c2":"Congo",
+                                "c3": "Egypt",
+                                "c4": "Madagascar",
+                                "answer": "Sudan"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/mg",
+                                "c1": "Madagascar",
+                                "c2":"Senegal",
+                                "c3": "Cameroon",
+                                "c4": "Somalia",
+                                "answer": "Madagascar"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/dj",
+                                "c1": "Swaziland",
+                                "c2": "Niger",
+                                "c3": "Ethiopia",
+                                "c4": "Djibouti",
+                                "answer": "Djibouti"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Tunisia",
+                                "c2": "Ghana",
+                                "c3": "Morocco",
+                                "c4": "Egypt",
+                                "answer": "Ghana"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Algeria",
+                                "c2":"Botswana",
+                                "c3": "Seychelles",
+                                "c4": "Uganda",
+                                "answer": "Algeria"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Trinidad & Tobago",
+                                "c2":"U.S. Virgin Islands",
+                                "c3": "Sierra Leon",
+                                "c4": "Cayman Islands",
+                                "answer": "Tunisia"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Guyana",
+                                "c2":"Honduras",
+                                "c3": "Mexico",
+                                "c4": "Martinique",
+                                "answer": "Mexico"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Aruba",
+                                "c2":"Belize",
+                                "c3": "Jamaica",
+                                "c4": "Anguilla",
+                                "answer": "Anguilla"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Canada",
+                                "c2":"Jamaica",
+                                "c3": "Bolivia",
+                                "c4": "Saint Lucia",
+                                "answer": "Jamaica"
+                            },
+                            {
+                                "q": "https://countryflagsapi.com/png/",
+                                "c1": "Nicaragua",
+                                "c2":"U.S. Virgin Islands",
+                                "c3": "El Salvador",
+                                "c4": "Saint Martin",
+                                "answer": "Nicaragua"
+                            }
+                         ]
+                    }
+              ]
+    }
+}
+
+//country flags api (https://www.countryflagsapi.com)
