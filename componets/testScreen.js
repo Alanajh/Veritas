@@ -42,7 +42,8 @@ export default  function TestScreen ()  {
                 return item
             }
         }).map((item, key) => {
-            return console.log(item.title)
+            //return console.log(item.title)
+            setTitles([item])
         })
       }
 
