@@ -1,0 +1,56 @@
+uid string Y   
+Your API user id
+ 
+tokenid string Y   
+Your valid developer token id
+ 
+word string Y   
+The word you would like to get dictionary definitions for
+ 
+
+
+
+
+http://www.stands4.com/services/v2/defs.php?uid=1001&tokenid=tk324324&word=consistent
+http://www.stands4.com/services/v2/defs.php?uid=[youruidkey]&tokenid=[yourtokenidkey]&word=[wordtosearch]
+
+
+
+
+results 
+Contains all of the query responses
+ 
+result 
+Contains each individual response
+ 
+term 
+The term this result is referring to
+ 
+definition 
+A definition for the specific sense
+ 
+partofspeech 
+adj, verb etc
+ 
+example 
+Usage example for the word
+ 
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+    <result>
+        <term>consistent, uniform</term>
+        <definition>the same throughout in structure or composition</definition>
+        <partofspeech>adj</partofspeech>
+        <example>bituminous coal is often treated as a consistent and homogeneous product</example>
+    </result>
+</results>
+
+
+
+
+MERRIAM-WEBSTE
+http://www.dictionaryapi.com/api/v1/references/collegiate/xml/vulture?key=c49f5474-fb60-46fb-8354-f39553264c15

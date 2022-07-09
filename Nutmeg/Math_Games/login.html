@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>MATH BEANS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+ header{ margin: 10px; }
+ #beans{ width: 20px; height: 20px; }
+ .login{ margin-bottom: 50px; }
+ #pword{ margin-bottom: 20px;}
+</style>
+ 
+<body>
+
+<header class="w3-container w3-sand">
+  <h1>
+	<img src="imgs/bean1.png" id="beans"/>
+	<img src="imgs/bean3.png" id="beans"/>
+	<img src="imgs/bean4.png" id="beans"/>
+	Math BEANS
+	<img src="imgs/bean5.png" id="beans"/>
+	<img src="imgs/bean6.png" id="beans"v>
+	<img src="imgs/bean2.png" id="beans"/>
+	</h1>
+</header>
+
+<div class="w3-container w3-brown">
+<div class="w3-card-4">
+
+<header class="w3-container w3-light-grey">
+   <h3>Ava Rose</h3>
+</header>
+
+<div class="w3-container">
+	<hr>
+	<img src="imgs/superthumb.jpg" alt="Avatar" class="w3-left w3-circle">
+	<p>The journey of Ava Rose Acklin through pre-k and kindergarden mathematics.</p>
+  </div>
+<hr>
+
+</div> 
+	<form class="w3-container login" name="getIn">
+		<label>User Name</label>
+		<input class="w3-input" type="text" name="UName">
+
+		<label>Password</label>
+		<input class="w3-input" type="text" name="PWord" id="pword">
+		
+		<input type="button" value="button" onclick="validate()">
+	</form> 
+ </div>
+
+<footer class="w3-container w3-sand">
+  <h5>Footer</h5>
+  <p>This page was created by Alana Harmon for the use of her nieces and nephews.</p>
+</footer>
+
+<script>
+function validate(){
+	var user = document.forms["getIn"]["UName"].value;
+	var pass = document.forms["getIn"]["PWord"].value;
+	if(user == "" && pass == ""){
+		location.href = "math_games_1_bootstrap.html";
+	}
+}
+</script>
+</body>
+</html>
