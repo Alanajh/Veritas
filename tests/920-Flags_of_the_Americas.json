@@ -8,7 +8,7 @@
                         "genre": "Geography",
                         "target": [
                             {
-                                "q": "https://countryflagsapi.com/png/br",
+                                "q": require("https://countryflagsapi.com/png/br"),
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Peru",
@@ -16,7 +16,7 @@
                                 "answer": "Brazil"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/do",
+                                "q": require("https://countryflagsapi.com/png/do",)
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Peru",
