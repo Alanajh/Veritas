@@ -8,7 +8,7 @@
                         "genre": "Geography",
                         "target": [
                             {
-                                "q": "https://countryflagsapi.com/png/br",
+                                "path": "https://countryflagsapi.com/png/br",
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Peru",
@@ -16,23 +16,23 @@
                                 "answer": "Brazil"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/do",
-                                "c1": "Brazil",
-                                "c2":"Ecuador",
-                                "c3": "Peru",
-                                "c4": "Cayman Islands",
+                                "path": "https://countryflagsapi.com/png/do",
+                                "c1": "Panama",
+                                "c2":"Mexico",
+                                "c3": "Honduras",
+                                "c4": "Dominican Republic",
                                 "answer": "Dominican Republic"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/pe",
-                                "c1": "Brazil",
-                                "c2":"Ecuador",
+                                "path": "https://countryflagsapi.com/png/pe",
+                                "c1": "Uruguay",
+                                "c2":"Saint Lucia",
                                 "c3": "Peru",
                                 "c4": "Cayman Islands",
                                 "answer": "Peru"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/pr",
+                                "path": "https://countryflagsapi.com/png/pr",
                                 "c1": "Puerto Rico",
                                 "c2":"Cuba",
                                 "c3": "Mexico",
@@ -40,7 +40,7 @@
                                 "answer": "Puerto Rico"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/uy",
+                                "path": "https://countryflagsapi.com/png/uy",
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Uruguay",
@@ -48,7 +48,7 @@
                                 "answer": "Uruguay"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/",
+                                "path": "https://countryflagsapi.com/png/",
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Uruguay",
@@ -56,7 +56,7 @@
                                 "answer": "Guatemala"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/gd",
+                                "path": "https://countryflagsapi.com/png/gd",
                                 "c1": "Brazil",
                                 "c2": "Grenada",
                                 "c3": "Uruguay",
@@ -64,7 +64,7 @@
                                 "answer": "Grenada"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/us",
+                                "path": "https://countryflagsapi.com/png/us",
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "United States",
@@ -72,7 +72,7 @@
                                 "answer": "United States"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/uy",
+                                "path": "https://countryflagsapi.com/png/uy",
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Uruguay",
@@ -80,7 +80,7 @@
                                 "answer": "Uruguay"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/tt",
+                                "path": "https://countryflagsapi.com/png/tt",
                                 "c1": "Trinidad & Tobago",
                                 "c2":"U.S. Virgin Islands",
                                 "c3": "El Salvador",
@@ -88,15 +88,15 @@
                                 "answer": "Trinidad & Tobago"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/mx",
-                                "c1": "Guyana",
+                                "path": "https://countryflagsapi.com/png/mx",
+                                "1": "Guyana",
                                 "c2":"Honduras",
                                 "c3": "Mexico",
                                 "c4": "Martinique",
                                 "answer": "Mexico"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/ai",
+                                "path": "https://countryflagsapi.com/png/ai",
                                 "c1": "Aruba",
                                 "c2":"Belize",
                                 "c3": "Jamaica",
@@ -104,7 +104,7 @@
                                 "answer": "Anguilla"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/jm",
+                                "path": "https://countryflagsapi.com/png/jm",
                                 "c1": "Canada",
                                 "c2":"Jamaica",
                                 "c3": "Bolivia",
@@ -112,7 +112,7 @@
                                 "answer": "Jamaica"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/ni",
+                                "path": "https://countryflagsapi.com/png/ni",
                                 "c1": "Nicaragua",
                                 "c2":"U.S. Virgin Islands",
                                 "c3": "El Salvador",
