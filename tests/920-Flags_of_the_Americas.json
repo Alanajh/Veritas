@@ -8,116 +8,130 @@
                         "genre": "Geography",
                         "target": [
                             {
-                                "q": "https://countryflagsapi.com/png/br",
+                                "path": "https://countryflagsapi.com/png/br",
                                 "c1": "Brazil",
                                 "c2":"Ecuador",
                                 "c3": "Peru",
                                 "c4": "Cayman Islands",
-                                "answer": "Brazil"
+                                "answer": "Brazil",
+                                "direct": "first"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/do",
-                                "c1": "Brazil",
-                                "c2":"Ecuador",
+                                "path": "https://countryflagsapi.com/png/do",
+                                "c1": "Panama",
+                                "c2":"Mexico",
+                                "c3": "Honduras",
+                                "c4": "Dominican Republic",
+                                "answer": "Dominican Republic",
+                                "direct": "fourth"
+                            },
+                            {
+                                "path": "https://countryflagsapi.com/png/pe",
+                                "c1": "Uruguay",
+                                "c2":"Saint Lucia",
                                 "c3": "Peru",
                                 "c4": "Cayman Islands",
-                                "answer": "Dominican Republic"
+                                "answer": "Peru",
+                                "direct": ""
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/pe",
-                                "c1": "Brazil",
-                                "c2":"Ecuador",
-                                "c3": "Peru",
-                                "c4": "Cayman Islands",
-                                "answer": "Peru"
-                            },
-                            {
-                                "q": "https://countryflagsapi.com/png/pr",
+                                "path": "https://countryflagsapi.com/png/pr",
                                 "c1": "Puerto Rico",
                                 "c2":"Cuba",
                                 "c3": "Mexico",
                                 "c4": "Argintina",
-                                "answer": "Puerto Rico"
+                                "answer": "Puerto Rico",
+                                "direct": "first"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/uy",
-                                "c1": "Brazil",
-                                "c2":"Ecuador",
+                                "path": "https://countryflagsapi.com/png/uy",
+                                "c1": "Chile",
+                                "c2":"Nicaragua",
                                 "c3": "Uruguay",
                                 "c4": "Cayman Islands",
-                                "answer": "Uruguay"
+                                "answer": "Uruguay",
+                                "direct": "third"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/",
-                                "c1": "Brazil",
+                                "path": "https://countryflagsapi.com/png/gt",
+                                "c1": "Canada",
                                 "c2":"Ecuador",
-                                "c3": "Uruguay",
+                                "c3": "Aruba",
                                 "c4": "Guatemala",
-                                "answer": "Guatemala"
+                                "answer": "Guatemala",
+                                "direct": "fourth"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/gd",
-                                "c1": "Brazil",
+                                "path": "https://countryflagsapi.com/png/gd",
+                                "c1": "Haiti",
                                 "c2": "Grenada",
-                                "c3": "Uruguay",
-                                "c4": "Cayman Islands",
-                                "answer": "Grenada"
+                                "c3": "Barbados",
+                                "c4": "Anguilla",
+                                "answer": "Grenada",
+                                "direct": "second"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/us",
-                                "c1": "Brazil",
-                                "c2":"Ecuador",
+                                "path": "https://countryflagsapi.com/png/us",
+                                "c1": "Dominica",
+                                "c2":"British Virgin Islands",
                                 "c3": "United States",
-                                "c4": "Cayman Islands",
-                                "answer": "United States"
+                                "c4": "U.S. Virgin Islands",
+                                "answer": "United States",
+                                "direct": "third"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/uy",
-                                "c1": "Brazil",
+                                "path": "https://countryflagsapi.com/png/uy",
+                                "c1": "Martinique",
                                 "c2":"Ecuador",
                                 "c3": "Uruguay",
                                 "c4": "Cayman Islands",
-                                "answer": "Uruguay"
+                                "answer": "Uruguay",
+                                "direct": "third"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/tt",
+                                "path": "https://countryflagsapi.com/png/tt",
                                 "c1": "Trinidad & Tobago",
                                 "c2":"U.S. Virgin Islands",
                                 "c3": "El Salvador",
                                 "c4": "Cayman Islands",
-                                "answer": "Trinidad & Tobago"
+                                "answer": "Trinidad & Tobago",
+                                "direct": "first"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/mx",
-                                "c1": "Guyana",
+                                "path": "https://countryflagsapi.com/png/mx",
+                                "1": "Guyana",
                                 "c2":"Honduras",
                                 "c3": "Mexico",
-                                "c4": "Martinique",
-                                "answer": "Mexico"
+                                "c4": "Turks & Caicos Islands",
+                                "answer": "Mexico",
+                                "direct": "third"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/ai",
-                                "c1": "Aruba",
+                                "path": "https://countryflagsapi.com/png/ai",
+                                "c1": "Cuba",
                                 "c2":"Belize",
-                                "c3": "Jamaica",
+                                "c3": "Guyana",
                                 "c4": "Anguilla",
-                                "answer": "Anguilla"
+                                "answer": "Anguilla",
+                                "direct": "first"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/jm",
-                                "c1": "Canada",
+                                "path": "https://countryflagsapi.com/png/jm",
+                                "c1": "Puerto Rico",
                                 "c2":"Jamaica",
                                 "c3": "Bolivia",
                                 "c4": "Saint Lucia",
-                                "answer": "Jamaica"
+                                "answer": "Jamaica",
+                                "direct": "second"
                             },
                             {
-                                "q": "https://countryflagsapi.com/png/ni",
+                                "path": "https://countryflagsapi.com/png/ni",
                                 "c1": "Nicaragua",
                                 "c2":"U.S. Virgin Islands",
                                 "c3": "El Salvador",
                                 "c4": "Saint Martin",
-                                "answer": "Nicaragua"
+                                "answer": "Nicaragua",
+                                "direct": "first"
                             }
                          ]
                     }

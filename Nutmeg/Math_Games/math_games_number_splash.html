@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Math Beans</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.center {
+  margin: auto;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  height: 400px;
+  position: relative;
+  background: lightblue;
+  width: 100%;
+  margin: auto;
+}
+
+#numDropper {
+  width: 15%;
+  height: 28%;
+  background-color: red;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto;
+}
+#numDropper:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  }
+#numDropper2 {
+  width: 15%;
+  height: 28%;
+  background-color: blue;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto;
+}
+#numDropper3{
+  width: 15%;
+  height: 28%;
+  background-color: green;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto;
+}
+#numDropper4{
+  width: 15%;
+  height: 28%;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto;
+}
+#numDropper5 {
+  width: 15%;
+  height: 28%;
+  background-color: purple;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body id="b">
+
+<h2>Math Splash</h2>
+
+<div class="center"  id="center">
+  <div id ="numDropper2" onclick="myMove()" class="startBtn2"></div>
+  <div id ="numDropper3" onclick="myMove()" class="startBtn3"> </div>
+  <div id ="numDropper4" onclick="myMove()" class="startBtn4"></div>
+  <div id ="numDropper5" onclick="myMove()" class="startBtn5"></div>
+  <div id ="numDropper" onclick="myMove()" class="startBtn"> </div>
+</div>
+
+<script>
+function myMove() {
+  var w = document.getElementById("b").offsetWidth;
+  var elem = document.getElementById("numDropper");   
+  var elem2 = document.getElementById("numDropper2");  
+  var elem3 = document.getElementById("numDropper3");  
+  var elem4 = document.getElementById("numDropper4");  
+  var elem5 = document.getElementById("numDropper5");  
+ 
+  var pos = 0;
+  var pos2 = 0;
+  var pos3 = 0;
+  var pos4 = 0;
+  var pos5 = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+  /*if the window size is an odd number, then this will not work and the box will roll off screen */
+    if (pos == w/2 - 50/2 || pos2 == w/2 - 50/2) { 
+      clearInterval(id);
+    } else {
+		pos++; 
+		pos2++;
+		pos3++;
+		pos4+=0.6; /* 0.5 = V, 0.6 = round, ++ = box */
+		pos5++;
+        elem.style.top = pos + 'px'; 
+		elem2.style.left = pos4 + 'px'; 
+		elem3.style.right= pos4 + 'px'; 
+		elem4.style.top = pos4 + 'px'; 
+		elem4.style.left = pos + 'px'; 
+		elem5.style.top = pos4 + 'px'; 
+		elem5.style.right = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+</body>
+</html>
