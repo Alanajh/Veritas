@@ -98,7 +98,7 @@ export default  function TestScreen ()  {
                <FlatList
                     style={styles.flat}
                     data={titles}
-                    renderItem={({ item }) => <RenderItem testTitle={item.title} />}
+                    renderItem={({ item }) => <RenderItem testTitle={item.title + ': ' + item.key} />}
                     keyExtractor={(item, index) => index.toString()}
                     extraData={titles}
                     ItemSeparatorComponent={ItemDivider}

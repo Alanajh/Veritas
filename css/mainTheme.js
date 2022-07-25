@@ -206,9 +206,12 @@ export default StyleSheet.create({
       },
       // Multiple Options
       containerMultiple: {
-        margin: 0
+        padding: 20
+      },
+      radioBtn:{
+        backgroundColor: 'orange'
       },
       radioGroup:{
-        margin: 0
+        textAlign: 'left',
       }
     });
