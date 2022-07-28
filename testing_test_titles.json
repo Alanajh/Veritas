@@ -51,11 +51,19 @@
                         "metadata": "biology, discoveries, science"
                     },
                     {
+                        "title": "Workd Famous Art Sculptures",
+                        "genre": "World Art",
+                        "sub": "Sculpture",
+                        "value": ,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/730-Famous_Sculptures-Arts.json",
+                        "metadata": "world, art, sculpture, history"
+                    },
+                    {
                         "title": "Flags of the Americas",
                         "genre": "Geography",
                         "sub": "",
                         "value": 91,
-                        "link": "",
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/920-Flags_of_the_Americas.json",
                         "metadata": "flags, americas, south america, countries, geography"
                     },
                     {
