@@ -54,7 +54,7 @@
                         "title": "Workd Famous Art Sculptures",
                         "genre": "World Art",
                         "sub": "Sculpture",
-                        "value": ,
+                        "value": 70,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/730-Famous_Sculptures-Arts.json",
                         "metadata": "world, art, sculpture, history"
                     },
