@@ -1,4 +1,4 @@
-import React from "react-native";
+import React, { Alert } from "react-native";
 import { useEffect, useState } from "react";
 import styles from "../css/mainTheme"
 import { Image, Text, TouchableOpacity, View } from "react-native";
@@ -7,7 +7,7 @@ import { RadioButton } from "react-native-paper";
 import { LogBox } from 'react-native';
 
 /* SCREENS */
-import EndScreen from "../componets/endScreen-test";
+import EndScreen from "../components/endScreen-test";
 
 export default function MultipleOptions(){
     LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
@@ -86,14 +86,14 @@ useEffect(() => {
                 style={{marginTop: 25, width: '100%', height: 200}}
                 />
 
-           <Image source={options.q}/>
+           <Image source={options.path}/>
  
            <RadioButton.Group onValueChange={newValue => setValue(newValue)} value={value}>
                {/*  <RadioButton.Group onValueChange={value => setValue(value)} value={value}> */}
-                    <RadioButton.Item label={options.c1} value="first" status={ checked === 'first' ? 'checked' : 'unchecked' } position="leading"/>
-                    <RadioButton.Item label={options.c2} value="second" status={ checked === 'second' ? 'checked' : 'unchecked' } position="leading"/>
-                    <RadioButton.Item label={options.c3} value="third" status={ checked === 'third' ? 'checked' : 'unchecked' } position="leading"/>
-                    <RadioButton.Item label={options.c4} value="fourth" status={ checked === 'fourrth' ? 'checked' : 'unchecked' } position="leading"/> 
+                    <RadioButton.Item label={options.option_1} value="first" status={ checked === 'first' ? 'checked' : 'unchecked' } position="leading"/>
+                    <RadioButton.Item label={options.option_2} value="second" status={ checked === 'second' ? 'checked' : 'unchecked' } position="leading"/>
+                    <RadioButton.Item label={options.option_3} value="third" status={ checked === 'third' ? 'checked' : 'unchecked' } position="leading"/>
+                    <RadioButton.Item label={options.option_4} value="fourth" status={ checked === 'fourrth' ? 'checked' : 'unchecked' } position="leading"/> 
                 </RadioButton.Group>
                 
                 <View style={{

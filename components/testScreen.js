@@ -2,6 +2,7 @@ import react, { useState, useEffect, useRef } from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import { 
+  Alert,
     FlatList, 
     StyleSheet, 
     Text, 
@@ -10,15 +11,37 @@ import {
     View
 } from 'react-native';
 
+/* SCREENS */
+import MultipleOptions from '../testTypes/multipleOptions';
+
 export default  function TestScreen ()  {
+    const [error, setError] = useState(null);
+    const [isLoaded, setIsLoaded] = useState(false); 
     const [titles, setTitles] = useState([]);
     const [txtInput, setInput] = useState('');
+    const [testSelected, setTestSelected] = useState(false) //if test is selected set this to true
 
    useEffect (() => {
+    console.log('Test script')
+    // fetch the selected test
         fetch('https://raw.githubusercontent.com/Alanajh/Veritas/main/testing_test_titles.json') // Download the Data
         .then(response => response.json()) // Convert the response to JSON object
-        .then (data2 => setTitles(data2.data.tests)); 
+        .then (data2 => {
+            setTitles(data2.data.tests)
+            setIsLoaded(true);
+            setTestSelected(false);
+        (error) => {
+            setIsLoaded(false);
+            setError(error);
+        }
+      }); 
     },[]);
+    // display error page if no test url
+      if(error){
+        return <View>
+          <Text> Damaged </Text>
+        </View>
+      } else {
 
     // Dividing lines on the test list
       const ItemDivider = () => {
@@ -33,6 +56,13 @@ export default  function TestScreen ()  {
         );
       }
 
+      const getTest = (testTitle, urlTest) => {
+        if(urlTest){
+          setTestSelected(true)
+        }else{
+          Alert.alert('No test found.')
+        }
+      }
     // Filter the test list  based on the search object
       const GetFilterTest = () => {
         titles.filter((item) => {
@@ -48,15 +78,18 @@ export default  function TestScreen ()  {
       }
 
       // Display the icon that comes before each test .... to be upgraded to a differrent icon based on the subject/genre
-      const RenderItem = ({testTitle}) => {
-        return <Text style={styles.listTxt}> 
-            <Icon name='chevron-back-outline' size={15} color='blue' />
-            {testTitle}
+      const RenderItem = ({testTitle, testSelection}) => {
+        return <Text 
+                  style={styles.listTxt}
+                  onPress={() => getTest(testTitle, testSelection)}> 
+            <Icon name='chevron-back-outline' size={15} color='blue'/>
+            {testTitle} - {testSelection}
+            
         </Text>
       }
-
+  
     return (  
-            <View style={styles.container}>
+      testSelected? <MultipleOptions/> : <View style={styles.container}>
            
            <View style={[styles.container, {
             flexDirection: 'row',
@@ -98,13 +131,17 @@ export default  function TestScreen ()  {
                <FlatList
                     style={styles.flat}
                     data={titles}
-                    renderItem={({ item }) => <RenderItem testTitle={item.title + ': ' + item.key} />}
+                    renderItem={({ item }) => <View>
+                      <RenderItem 
+                      testTitle={item.title + ': ' + item.genre} testSelection={item.link}/>
+                      </View>}
                     keyExtractor={(item, index) => index.toString()}
                     extraData={titles}
                     ItemSeparatorComponent={ItemDivider}
                 />
             </View>
-    )
+        )
+      }
 }
 
 const styles = StyleSheet.create({
