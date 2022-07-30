@@ -10,7 +10,7 @@
                         "type": 1,
                         "target": [
                             {
-                                "path": "https://countryflagsapi.com/png/br",
+                                "path": "https://countryflagsapi.com/png/us",
                                 "question":"",
                                 "option_1": "Test Brazil",
                                 "option_2": "Test Ecuador",
@@ -22,7 +22,31 @@
                                 "point": ""
                             },
                             {
-                                "path": "https://countryflagsapi.com/png/do",
+                                "path": "https://countryflagsapi.com/png/it",
+                                "question":"",
+                                "option_1": "Panama",
+                                "option_2":"Mexico",
+                                "option_3": "Honduras",
+                                "option_4": "Dominican Republic",
+                                "answer": "Dominican Republic",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                             {
+                                "path": "https://countryflagsapi.com/png/us",
+                                "question":"",
+                                "option_1": "Test Brazil",
+                                "option_2": "Test Ecuador",
+                                "option_3": "Test Peru",
+                                "option_4": "Test Cayman Islands",
+                                "answer": "Brazil",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "https://countryflagsapi.com/png/it",
                                 "question":"",
                                 "option_1": "Panama",
                                 "option_2":"Mexico",
