@@ -10,7 +10,7 @@
                         "type": 1,
                         "target": [
                             {
-                                "path": "https://countryflagsapi.com/png/it",
+                                "path": "https://countryflagsapi.com/png/us",
                                 "question":"",
                                 "option_1": "test",
                                 "option_2":"Test",
@@ -22,7 +22,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "https://countryflagsapi.com/png/gb",
+                                "path": "https://countryflagsapi.com/png/it",
                                 "question":",
                                 "test",
                                 "option_2":"Test",
