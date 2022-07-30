@@ -3,45 +3,33 @@
         "tests": 
             [
                     {
-                        "title": "TEST",
+                        "title": "TEST - Flags of the America",
                         "genre": "Flags",
                         "genreId": "Geography",
                         "head": "",
                         "type": 1,
                         "target": [
                             {
-                                "path": "https://countryflagsapi.com/png/us",
+                                "path": "https://countryflagsapi.com/png/br",
                                 "question":"",
-                                "option_1": "test",
-                                "option_2":"Test",
-                                "option_3": "test",
-                                "option_4": "test",
-                                "answer": "tes",
+                                "option_1": "Test Brazil",
+                                "option_2": "Test Ecuador",
+                                "option_3": "Test Peru",
+                                "option_4": "Test Cayman Islands",
+                                "answer": "Brazil",
                                 "direct": "first",
                                 "hint_1": "",
                                 "point": ""
                             },
                             {
-                                "path": "https://countryflagsapi.com/png/it",
-                                "question":",
-                                "test",
-                                "option_2":"Test",
-                                "option_3": "test",
-                                "option_4": "test",
-                                "answer": "tes",
-                                "direct": "first",
-                                "hint_1": "",
-                                "point": ""
-                            },
-                            {
-                                "path": "https://countryflagsapi.com/png/ir",
+                                "path": "https://countryflagsapi.com/png/do",
                                 "question":"",
-                                  test",
-                                "option_2":"Test",
-                                "option_3": "test",
-                                "option_4": "test",
-                                "answer": "tes",
-                                "direct": "first",
+                                "option_1": "Panama",
+                                "option_2":"Mexico",
+                                "option_3": "Honduras",
+                                "option_4": "Dominican Republic",
+                                "answer": "Dominican Republic",
+                                "direct": "fourth",
                                 "hint_1": "",
                                 "point": ""
                             }
