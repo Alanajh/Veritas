@@ -9,7 +9,7 @@
                         "genreId": "Art",
                         "head": "",
                         "type": 1,
-                        "meta": "",
+                        "meta": "sculpture. art. history, classic, artist",
                         "target": [
                             {
                                 "path": "https://countryflagsapi.com/png/br",
@@ -19,8 +19,7 @@
                                 "option_3": "Lady of Paris",
                                 "option_4": "Statue of New York",
                                 "answer": "Statue of Libery",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "second",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -32,8 +31,7 @@
                                 "option_3": "Athena Nike",
                                 "option_4": "Mary Magdalene",
                                 "answer": "Venus De Milo",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "first",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -45,8 +43,7 @@
                                 "option_3": "The Thinker",
                                 "option_4": "Rodin",
                                 "answer": "The Thinker",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -58,8 +55,7 @@
                                 "option_3": "The Hero",
                                 "option_4": "Jason",
                                 "answer": "David",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "first",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -71,8 +67,7 @@
                                 "option_3": "Christ The Reedemer",
                                 "option_4": "The Savior",
                                 "answer": "Christ The Reedemer",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -84,8 +79,7 @@
                                 "option_3": "Grace",
                                 "option_4": "Lonely Dancer",
                                 "answer": "Little Dancer of Fourteen Years",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "fourth",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -97,8 +91,7 @@
                                 "option_3": "The Death of A Sinner",
                                 "option_4": "Dying Gaul",
                                 "answer": "Dying Gaul",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "fourth",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -110,8 +103,7 @@
                                 "option_3": "Cast Down",
                                 "option_4": "Misery",
                                 "answer": "The Gates of Hell",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "second",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -123,8 +115,7 @@
                                 "option_3": "The Titan",
                                 "option_4": "The Atlas",
                                 "answer": "Discobolus",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "first",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -136,8 +127,7 @@
                                 "option_3": "Madonna of Bruges",
                                 "option_4": "Madonna and Child",
                                 "answer": "Madonna of Bruges",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -149,8 +139,7 @@
                                 "option_3": "The Kiss",
                                 "option_4": "The Lovers",
                                 "answer": "The Kiss",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -162,8 +151,7 @@
                                 "option_3": "Bust of Cleopatra",
                                 "option_4": "Amina Mohamud",
                                 "answer": "Bust of Nefertiti",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "second",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -171,12 +159,11 @@
                                 "path": "https://countryflagsapi.com/png/ni",
                                 "question":"",
                                 "option_1": "The Death of A Wife",
-                                "option_2":"Zeus Conquers",
+                                "option_2": "Zeus Conquers",
                                 "option_3": "Perseus with the head of Medusa",
                                 "option_4": "The Loss of the Amazons",
                                 "answer": "Perseus with the head of Medusa",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -188,8 +175,7 @@
                                 "option_3": "Tutankhamun",
                                 "option_4": "The Lions Head",
                                 "answer": "The Great Sphinx of Giza",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "first",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -201,8 +187,7 @@
                                 "option_3": "The Kiss",
                                 "option_4": "Easter Island Moais",
                                 "answer": "Easter Island Moais",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "fourth",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -214,8 +199,7 @@
                                 "option_3": "Mount Rushmore",
                                 "option_4": "Yellowstone Monument",
                                 "answer": "Mount Rushmore",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_option_1": "",
                                 "point": ""
                             },
@@ -227,8 +211,7 @@
                                 "option_3": "Chinas Final Stand",
                                 "option_4": "Easter Island Moais",
                                 "answer": "China's Terracotta Army",
-                                "answer": "",
-                                "direct": "",
+                                "direct": "second",
                                 "hint_option_1": "",
                                 "point": ""
                             }
