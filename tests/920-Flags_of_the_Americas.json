@@ -8,6 +8,7 @@
                         "genreId": "Geography",
                         "head": "",
                         "type": 1,
+                        "meta": "",
                         "target": [
                             {
                                 "path": "https://countryflagsapi.com/png/br",

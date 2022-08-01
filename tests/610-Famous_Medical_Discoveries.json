@@ -1,0 +1,130 @@
+
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Famous Medical Discoveries",
+                        "genre": "Medical History",
+                        "genreId": "Science",
+                        "head": "",
+                        "type": 0,
+                        "meta": "history, medicine, doctor, dr",
+                        "target": [
+                            {
+                                "path": "",
+                                "question": "What newly developed item saved the first polio patient?",
+                                "option_1": "Plasmid",
+                                "option_2": "Crutches",
+                                "option_3": "Drinker Respirator (iron lung)",
+                                "option_4": "Computed tomography (CT scan)",
+                                "answer": "Drinker Respirator (iron lung)",
+                                "direct": "third",
+                                "hint_option_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question": "In 1886, Reginald Heber Fitz provides the first clinical description of _____________?",
+                                "option_1": "Appendicitis",
+                                "option_2": "Osteoporosis",
+                                "option_3": "Cancer",
+                                "option_4": "Syphilis",
+                                "answer": "Appendicitis",
+                                "direct": "first",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "Surgeon Joseph Murry performs the first successful ___________________ on identical twins at Peter Bent Brigham Hospital.",
+                                "option_1": "Appendicitis",
+                                "option_2": "Heart transplant",
+                                "option_3": "Kidney transplant",
+                                "option_4": "Amputation",
+                                "answer": "Kidney transplant",
+                                "direct": "third",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "Jack Szostak won the Nobel Prize in 2009 for his discovery of telomeres. What are telomeres?",
+                                "option_1": "A physical or physiological abnormality in a baby at birth.",
+                                "option_2": "Repetitive sequences of non-coding DNA that protect the chromosome from damage.",
+                                "option_3": "Forms the basic structural unit of nucleic acids such as DNA.",
+                                "option_4": "An individuals observable traits, such as height, eye color and blood type.",
+                                "answer": "Repetitive sequences of non-coding DNA that protect the chromosome from damage.",
+                                "direct": "second",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "Benjamin Waterhouse introduces a vaccine to the United States for what disease?",
+                                "option_1": "Puerperal fever",
+                                "option_2": "Yellow fever",
+                                "option_3": "Black Death",
+                                "option_4": "Smallpox",
+                                "answer": "Smallpox",
+                                "direct": "fourth",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "Elliott Joslin becomes one of the first physicians to introduce ______________?",
+                                "option_1": "Heart valve surgery",
+                                "option_2": "Insulin",
+                                "option_3": "Oral contraceptives",
+                                "option_4": "Pap smear",
+                                "answer": "Insulin",
+                                "direct": "second",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "This theory stated living organisms and pathogeans were actually the cause of many diseases.",
+                                "option_1": "Giant Impact Theory",
+                                "option_2": "Cell Theory",
+                                "option_3": "Germ Theory",
+                                "option_4": "Human Theory",
+                                "answer": "Germ Theory",
+                                "direct": "third",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "A technique that is used to generate the first full body images of organs inside the body was developed in the 1977 by Dr. Raymond Damadian.",
+                                "option_1": "Positron Emission Tomography (PET scanner)",
+                                "option_2": "Computed Tomography (CT Scanner)",
+                                "option_3": "Ultrasounc Scanner",
+                                "option_4": "Magnetic Resonance Imaging (MRI Scanner)",
+                                "answer": "Magnetic Resonance Imaging (MRI Scanner)",
+                                "direct": "fourth",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "William T.G. Morton made history in 1846 when he successfully used ether as an __________________ .",
+                                "option_1": "Anaesthetic",
+                                "option_2": "Ointment",
+                                "option_3": "Aspirin",
+                                "option_4": "Lotion",
+                                "answer": "Anaesthetic",
+                                "direct": "first",
+                                "hint_option_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "The world's first antibiotic, which completely revolutionized the war against deadly bacteria, by Sir Alexander Fleming",
+                                "option_1": "Amoxicilin",
+                                "option_2": "Penicilin",
+                                "option_3": "Doxycycline",
+                                "option_4": "Acetaminophen",
+                                "answer": "Penicilin",
+                                "direct": "second",
+                                "hint_option_1": "",
+                                "point": ""
+                            }                            
+                         ]
+                    }
+              ]
+    }
+}
