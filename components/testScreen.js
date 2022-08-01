@@ -12,52 +12,65 @@ import {
     TouchableOpacity,
     View
 } from 'react-native';
-
-/* SCREENS */
-import MultipleOptions from '../testTypes/multipleOptions';
+import ScoreScreen from './scoreScreen';
 
 export default  function TestScreen ()  {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false); 
+    const [reload, setReload] = useState(true); // initiate fetch call to reload fresh page
     const [titles, setTitles] = useState([]);
     const [txtInput, setInput] = useState('');
-    const [testSelected, setTestSelected] = useState(false) //if test is selected set this to true
+    const [testSelected, setTestSelected] = useState(false); //if test is selected set this to true
+    const [testSelectedTitle, setTestSelectedTitle] = useState('');
+    const [filterTests, setTestFilter] = useState();
+    const [startTest, setStartTest] = useState(false); // indicates the "Lets Begin" button
+    const [scoreScreen, setScoreScreen] = useState(false);
 
     /////////////////////////////////////////////////////////////////////
     /* TEST OPTIONS */
     const [ questions, setQuestions ] = useState('');
-    const [ options, setOptions ] = useState('')
-    const [ testLength, setTestLength] = useState();
+    const [ options, setOptions ] = useState('');
+    const [ testLength, setTestLength] = useState(null);
     const [ img, setImg ] = useState('');
-    const [ score, setScore] = useState(0);
-    const [ fine, setFine ] = useState(false)
+    const [ score, setScore ] = useState(0);
+    const [ fine, setFine ] = useState(false);
+    const [ testUrl, setTestUrl ] = useState('');
       
     const [checked, setChecked] = useState('first');
     const [correct, setCorrect] = useState(false);
     const [value, setValue] = useState('first');
     const [progress, setProgress] = useState(0);
-    
+    const [testType, setTestType] = useState();
+
    useEffect (() => {
-    console.log('Test script: ' + testSelected)
+    reload? StartTesting() : null
+   })
+
+    const StartTesting = () => {
     // fetch the selected test
-        fetch('https://raw.githubusercontent.com/Alanajh/Veritas/main/testing_test_titles.json') // Download the Data
+      fetch('https://raw.githubusercontent.com/Alanajh/Veritas/main/testing_test_titles.json') // Download the Data
         .then(response => response.json()) // Convert the response to JSON object
         .then (data2 => {
             setTitles(data2.data.tests)
             setIsLoaded(true);
+            setReload(false);
+            setOptions('');
+            setProgress(0);
+            setScore(0);
         (error) => {
             setIsLoaded(false);
             setError(error);
         }
       }); 
-    },[]);
+      
+    }//,[]);
     // display error page if no test url
-      if(error){
+    /*   if(error){
         return <View>
           <Text> Damaged </Text>
         </View>
       } else {
-
+ */
     // Dividing lines on the test list
       const ItemDivider = () => {
         return (
@@ -74,7 +87,9 @@ export default  function TestScreen ()  {
       const getTest = (testTitle, urlTest) => {
         if(urlTest){
           setTestSelected(true)
-          getTestQuestion();
+          setOptions('');
+          setTestUrl(urlTest)
+          setStartTest(true)
         }else{
           Alert.alert('No test found.')
         }
@@ -104,38 +119,43 @@ export default  function TestScreen ()  {
         </Text>
       }
   
-      /* TEST TAKING SCREEN */
-      const radioBtn = () => {
-        fetch('https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/920-Flags_of_the_Americas.json')
-        .then(res => res.json())
-        .then(data2 => {
-            setOptions(data2.data.tests[0].target[progress])
-        }
-        )
-        getNext();
-    }
+    /* TEST TAKING SCREEN */
     const getTestQuestion = () => {
-        fetch('https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/920-Flags_of_the_Americas.json')
+      setTestSelected(true)
+        fetch(testUrl)
         .then(res => res.json())
-        .then(data =>{
-            setQuestions(data.data.tests[0]),
-            setTestLength(data.data.tests[0].target.length)
+        .then(data2 =>{
+          setTestLength(data2.data.tests[0].target.length)
+          setOptions(data2.data.tests[0].target[progress]),
+          setQuestions(data2.data.tests[0])
+          setTestSelectedTitle(data2.data.tests[0].title)
         })   
+        getNext();
     }
     const getNext = () => { 
         let done = false;
-        if(progress < testLength  && done == false){
-            setProgress(progress + 1)
-            console.log(value + " " + options.direct)
+        if(progress < testLength && done == false){
+          setStartTest(false)
+          setProgress(progress + 1)
+          console.log('getNext ran')
+           console.log(value + " " + options.direct)
            if(value == options.direct){
                 setScore(score + 100)
             }else{
               // do a count to compare wrong vs right and add a select button in the settings to negatively count wrong answers
-                console.log('false')
             } 
-        }else(
-            
-        )
+        }else{
+          done = true
+          testDone()
+        }
+    }
+    const testDone = () => {
+      setScore(true)
+      setTestSelected(false)
+      setReload(true)
+    }
+    const scoreToMain = () => {
+      setStartTest(true)
     }
     const getPrevious = () => { 
         if(progress > 0){
@@ -146,7 +166,22 @@ export default  function TestScreen ()  {
         )
     }
     return (  
-      testSelected? <View style={[ styles.container, {flexDirection: 'row' }]}>
+      testSelected? 
+      startTest? <View style={{flex:1, alignItems: 'center', paddingTop: 150}}>
+        <Text>Let's begin</Text>
+        <TouchableOpacity style={{
+             alignItems:'center',
+             backgroundColor: 'teal', 
+             height: 60,
+             margin: 10,
+             padding: 20,
+             width: '45%'
+             }}
+             onPress={getTestQuestion}>
+             <Text style={{color: 'lightgreen'}}>Begin</Text>
+         </TouchableOpacity>
+        </View>
+      :<View style={[ styles.container, {flexDirection: 'row' }]}>
       <View style={[styles.container, {
      flex: 1, flexDirection: "column", backgroundColor: "white", alignSelf: 'left'
      }]}>
@@ -157,22 +192,27 @@ export default  function TestScreen ()  {
      }]}>
          
        <Text>{progress}/{testLength}</Text> 
-       <Text>{score}</Text>
+       <Text style={{
+        color: 'blue',
+        fontFamily: 'Times New Roman',
+        fontSize: 24,
+        fontWeight: 'bold'
+       }}>{score}</Text>
 
+      <Text style={{       
+         fontFamily: 'Times New Roman'
+      }}>{testSelectedTitle}</Text>
        <Image source={{
          uri: options.path}}
-         style={{marginTop: 25, width: '100%', height: 200}}
+         style={{marginTop: 25, width: '100%', height: 200, resizeMode: 'contain'}}
          />
 
-    <Image source={options.path}/>
-
-    <RadioButton.Group onValueChange={newValue => setValue(newValue)} value={value}>
-        {/*  <RadioButton.Group onValueChange={value => setValue(value)} value={value}> */}
+        <RadioButton.Group onValueChange={newValue => setValue(newValue)} value={value}> 
              <RadioButton.Item label={options.option_1} value="first" status={ checked === 'first' ? 'checked' : 'unchecked' } position="leading"/>
              <RadioButton.Item label={options.option_2} value="second" status={ checked === 'second' ? 'checked' : 'unchecked' } position="leading"/>
              <RadioButton.Item label={options.option_3} value="third" status={ checked === 'third' ? 'checked' : 'unchecked' } position="leading"/>
              <RadioButton.Item label={options.option_4} value="fourth" status={ checked === 'fourrth' ? 'checked' : 'unchecked' } position="leading"/> 
-         </RadioButton.Group>
+         </RadioButton.Group> 
          
          <View style={{
              flex:1,
@@ -187,7 +227,7 @@ export default  function TestScreen ()  {
              padding: 20,
              width: '45%'
              }}
-             onPress={radioBtn}>
+             onPress={getTestQuestion}>
              <Text style={{color: 'lightgreen'}}>Next</Text>
          </TouchableOpacity>
          </View>
@@ -252,7 +292,7 @@ export default  function TestScreen ()  {
             </View>
         )
       }
-}
+
 
 const styles = StyleSheet.create({
     btnStyle: {

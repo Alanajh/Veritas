@@ -7,6 +7,7 @@ import Landing from "../components/landingPage";
 import RoomReach from "../components/roomReach";
 import TestScreen from "../components/testScreen";
 import MultipleOptions from "../testTypes/multipleOptions"
+import ScoreScreen from "../components/scoreScreen";
 
 const screens = {
     Home: {
@@ -25,7 +26,7 @@ const screens = {
         screen: TestScreen
     },
     Profile: {
-        screen: MultipleOptions
+        screen: ScoreScreen
     }
 }
 const HomeStack = createStackNavigator(screens);
