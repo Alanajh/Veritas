@@ -40,7 +40,15 @@
                         "sub": "Military History",
                         "value": 22,
                         "link": "cnbc.com",
-                        "metadata": "military history, political parties"
+                        "metadata": "military history, political parties, politics, organizations, leaders"
+                    },
+                    {
+                        "title": "Countries and Their Parties",
+                        "genre": "World History",
+                        "sub": "Political History",
+                        "value": 22,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/329-Political_Parties_and_Leaders.json",
+                        "metadata": "military history, political parties, politics, organizations, leaders"
                     },
                     {
                         "title": "U.S. Event, Landmarks & Monuments",
