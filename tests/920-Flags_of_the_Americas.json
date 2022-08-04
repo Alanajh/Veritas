@@ -107,18 +107,6 @@
                                 "point": ""
                             },
                             {
-                                "path": "https://countryflagsapi.com/png/uy",
-                                "question":"",
-                                "option_1": "Martinique",
-                                "option_2":"Ecuador",
-                                "option_3": "Uruguay",
-                                "option_4": "Cayman Islands",
-                                "answer": "Uruguay",
-                                "direct": "third",
-                                "hint_1": "",
-                                "point": ""
-                            },
-                            {
                                 "path": "https://countryflagsapi.com/png/tt",
                                 "question":"",
                                 "option_1": "Trinidad & Tobago",
