@@ -19,6 +19,14 @@
                         "metadata": "law, legal, supreme court, case, landmark"
                     },
                     {
+                        "title": "Company Founders and Co-Founders",
+                        "genre": "Business",
+                        "sub": "Business History",
+                        "value": 3,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/330-Companies_and_Owners.json",
+                        "metadata": "business, company, companies, history, president, ceo, finance, economics"
+                    },
+                    {
                         "title": "World Leaders and Their Parties",
                         "genre": "World History",
                         "sub": "Military History",
