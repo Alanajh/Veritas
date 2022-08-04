@@ -4,8 +4,8 @@
             [
                     {
                         "title": "Clothing Customs",
-                        "genre": "",
-                        "genreId": "",
+                        "genre": "Fashion History",
+                        "genreId": "Social Science",
                         "head": "",
                         "type": 1,
                         "target": [
