@@ -27,6 +27,13 @@
                         "metadata": "law, legal, supreme court, case, landmark"
                     },
                     {
+                        "title": "Identifying Historical Clothing Items",
+                        "genre": "Social Science",
+                        "sub": "Fashion History",
+                        "value": 3,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/391-Customs_associated%20_with_clothing.json",
+                        "metadata": "clothing, fashion, style, history"
+                    {
                         "title": "Company Founders and Co-Founders",
                         "genre": "Business",
                         "sub": "Business History",
