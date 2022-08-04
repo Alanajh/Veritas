@@ -1,0 +1,161 @@
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Clothing Customs",
+                        "genre": "",
+                        "genreId": "",
+                        "head": "",
+                        "type": 1,
+                        "target": [
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Underwear",
+                                "option_2": "Codpiece",
+                                "option_3": "Loincloth",
+                                "option_4": "Pouch cup",
+                                "answer": "codpiece",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Peplum",
+                                "option_2": "Berthas",
+                                "option_3": "Surcoat",
+                                "option_4": "Nonchalantes",
+                                "answer": "Surcoat",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Ruche",
+                                "option_2": "Engageantes",
+                                "option_3": "Galloon",
+                                "option_4": "Loincloth",
+                                "answer": "Loincloth",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Cumberbun",
+                                "option_2": "Tucker",
+                                "option_3": "Soutache",
+                                "option_4": "Dolman",
+                                "answer": "Cumberbun",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Aiguillette",
+                                "option_2": "Pelerine",
+                                "option_3": "Tippet",
+                                "option_4": "Cockade",
+                                "answer": "Tippet",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Bretelles",
+                                "option_2": "Cockade",
+                                "option_3": "Jimmys",
+                                "option_4": "Reticules",
+                                "answer": "Cockade",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Bustle",
+                                "option_2": "Sontags",
+                                "option_3": "Lappet",
+                                "option_4": "Basquine",
+                                "answer": "Bustle",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Bouillonné",
+                                "option_2": "Bijou Train",
+                                "option_3": "Corset",
+                                "option_4": "Polo",
+                                "answer": "Corset",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Truss",
+                                "option_2": "Tunic",
+                                "option_3": "Tie",
+                                "option_4": "Ruff",
+                                "answer": "Ruff",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": "A detachable pleated collar in linen and/or lace starched into shape and sometimes supported underneath"
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Ruff",
+                                "option_2": "Crinoline",
+                                "option_3": "Polonaise",
+                                "option_4": "Mantle",
+                                "answer": "Crinoline",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": "Crinolines were petticoats, originally made of crin—the French word for “horsehair."
+                            },
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "Jumper",
+                                "option_2": "Sweater",
+                                "option_3": "Dashiki",
+                                "option_4": "Petticoat",
+                                "answer": "Dashiki",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": "The dashiki is a colorful garment that covers the top half of the body, designed by Dutch designer Toon van de Mannaker for Netherlands-based Vlisco, worn mostly in West Africa. It is also known as a Kitenge in East Africa and is a common item of clothing in Tanzania and Kenya."
+                            },
+                            {
+                                "path": "",
+                                "question": "",
+                                "option_1": "Corselet/corselette",
+                                "option_2": "Epaulettes ",
+                                "option_3": "Jabots",
+                                "option_4": "Muffs",
+                                "answer": "Corselet/corselette",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": "The Corselet was used as a fashion term starting in the 1860s as a outer garment for girls that wrapped their midriffs, and was constructed similarly to the adult Swiss waists, so the words became interchangeable." 
+
+                            
+                         ]
+                    }
+              ]
+    }
+}
