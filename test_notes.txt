@@ -1,6 +1,6 @@
 Text Types: 
-  0 - 
-  1 -
-  2 - 
-  3 - 
-  11 -
+  0 - multiple choice, question & answers are text
+  1 - multiple choice, questions pic & answers are text
+  2 - essay
+  3 - true or false
+  7 - mixed

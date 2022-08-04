@@ -42,7 +42,7 @@
                                 "option_3": "Peru",
                                 "option_4": "Cayman Islands",
                                 "answer": "Peru",
-                                "direct": "",
+                                "direct": "third",
                                 "hint_1": "",
                                 "point": ""
                             },
@@ -107,18 +107,6 @@
                                 "point": ""
                             },
                             {
-                                "path": "https://countryflagsapi.com/png/uy",
-                                "question":"",
-                                "option_1": "Martinique",
-                                "option_2":"Ecuador",
-                                "option_3": "Uruguay",
-                                "option_4": "Cayman Islands",
-                                "answer": "Uruguay",
-                                "direct": "third",
-                                "hint_1": "",
-                                "point": ""
-                            },
-                            {
                                 "path": "https://countryflagsapi.com/png/tt",
                                 "question":"",
                                 "option_1": "Trinidad & Tobago",
@@ -150,7 +138,7 @@
                                 "option_3": "Guyana",
                                 "option_4": "Anguilla",
                                 "answer": "Anguilla",
-                                "direct": "first",
+                                "direct": "fourth",
                                 "hint_1": "",
                                 "point": ""
                             },

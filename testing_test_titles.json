@@ -5,10 +5,18 @@
                     {
                         "title": "Famous Medical Discoveries",
                         "genre": "Medical",
-                        "sub": "",
+                        "sub": "Medical History",
                         "value": 51,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/610-Famous_Medical_Discoveries.json",
-                        "metadata": "medical history, "
+                        "metadata": "medical history, doctors, medicine, discovery, vaccine, biology"
+                    },
+                    {
+                        "title": "Famous Characters from Famous Books",
+                        "genre": "Literature",
+                        "sub": "Classic Literature",
+                        "value": 8,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/8_test-Literature-Classics.json",
+                        "meta": "literature, books, classics, novels, english"
                     },
                     {
                         "title": "United States Landmark Supreme Court Cases",
@@ -19,12 +27,35 @@
                         "metadata": "law, legal, supreme court, case, landmark"
                     },
                     {
+                        "title": "Identifying Historical Clothing Items",
+                        "genre": "Social Science",
+                        "sub": "Fashion History",
+                        "value": 3,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/391-Customs_associated%20_with_clothing.json",
+                        "metadata": "clothing, fashion, style, history"
+                    {
+                        "title": "Company Founders and Co-Founders",
+                        "genre": "Business",
+                        "sub": "Business History",
+                        "value": 3,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/330-Companies_and_Owners.json",
+                        "metadata": "business, company, companies, history, president, ceo, finance, economics"
+                    },
+                    {
                         "title": "World Leaders and Their Parties",
                         "genre": "World History",
                         "sub": "Military History",
                         "value": 22,
                         "link": "cnbc.com",
-                        "metadata": "military history, political parties"
+                        "metadata": "military history, political parties, politics, organizations, leaders"
+                    },
+                    {
+                        "title": "Countries and Their Parties",
+                        "genre": "World History",
+                        "sub": "Political History",
+                        "value": 22,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/329-Political_Parties_and_Leaders.json",
+                        "metadata": "military history, political parties, politics, organizations, leaders"
                     },
                     {
                         "title": "U.S. Event, Landmarks & Monuments",
@@ -43,6 +74,14 @@
                         "metadata": "literature, writing, books"
                     },
                     {
+                        "title": "Countries and Their Capitals",
+                        "genre": "Geography",
+                        "sub": "World Geography",
+                        "value": 8,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/912-Countris_and_Capitals.json",
+                        "metadata": "maps, geography, country, cities"
+                    },
+                    {
                         "title": "Famous Discoveries of Biological Science",
                         "genre": "Biology",
                         "sub": "",
@@ -51,7 +90,7 @@
                         "metadata": "biology, discoveries, science"
                     },
                     {
-                        "title": "Workd Famous Art Sculptures",
+                        "title": "World Famous Art Sculptures",
                         "genre": "World Art",
                         "sub": "Sculpture",
                         "value": 70,
