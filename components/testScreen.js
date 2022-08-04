@@ -1,6 +1,7 @@
 import react, { useState, useEffect, useRef } from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { RadioButton } from "react-native-paper";
+import DropDownPicker from 'react-native-dropdown-picker';
 
 import { 
   Alert,
@@ -13,6 +14,7 @@ import {
     View
 } from 'react-native';
 import ScoreScreen from './scoreScreen';
+import LetsBeginScreen from './letsBegin';
 
 export default  function TestScreen ()  {
     const [error, setError] = useState(null);
@@ -23,6 +25,7 @@ export default  function TestScreen ()  {
     const [testSelected, setTestSelected] = useState(false); //if test is selected set this to true
     const [testSelectedTitle, setTestSelectedTitle] = useState('');
     const [filterTests, setTestFilter] = useState();
+    const [openFilter, setOpenFilter] = useState(false);
     const [startTest, setStartTest] = useState(false); // indicates the "Lets Begin" button
     const [scoreScreen, setScoreScreen] = useState(false);
 
@@ -109,16 +112,16 @@ export default  function TestScreen ()  {
       }
 
       // Display the icon that comes before each test .... to be upgraded to a differrent icon based on the subject/genre
-      const RenderItem = ({testTitle, testSelection}) => {
+      const RenderItem = ({testTitle, testSelection, testGenre}) => {
         return <Text 
                   style={styles.listTxt}
-                  onPress={() => getTest(testTitle, testSelection)}> 
+                  onPress={() => getTest(testTitle, testSelection, testGenre)}> 
             <Icon name='chevron-back-outline' size={15} color='blue'/>
-            {testTitle} - {testSelection}
+            {testTitle} 
             
         </Text>
       }
-  
+
     /* TEST TAKING SCREEN */
     const getTestQuestion = () => {
       setTestSelected(true)
@@ -126,14 +129,17 @@ export default  function TestScreen ()  {
         .then(res => res.json())
         .then(data2 =>{
           setTestLength(data2.data.tests[0].target.length)
-          setOptions(data2.data.tests[0].target[progress]),
+          setOptions(data2.data.tests[0].target[progress])
           setQuestions(data2.data.tests[0])
           setTestSelectedTitle(data2.data.tests[0].title)
+          setTestType(data2.data.tests[0].type)
         })   
         getNext();
     }
+    
     const getNext = () => { 
         let done = false;
+       setValue('first')
         if(progress < testLength && done == false){
           setStartTest(false)
           setProgress(progress + 1)
@@ -165,53 +171,80 @@ export default  function TestScreen ()  {
             console.log("the end mnm")
         )
     }
+    // When TestType is selected show the correct format
+    const GetTestType = ({testTypeSelected}) => {
+      if(testType === 0){
+        //multiple choice text
+      return <View
+        style={{
+          backgroundColor: 'white', 
+          borderRadius: 15, 
+          margin: 15, 
+          padding: 15}}>
+      <Text style={{ lineHeight: 20,  padding: 5, fontWeight: 'bold'}} >{options.question}</Text></View>
+    }else if(testType === 1){
+      //multiple choice pic
+      return <View
+      style={{
+        backgroundColor: 'white', 
+        borderRadius: 15, 
+        margin: 15, 
+        paddingBottom: 25}}>
+      <Image source={{
+        uri: options.path}}
+        style={{marginTop: 25, width: '100%', height: 200, resizeMode: 'contain'}}
+        /></View>
+    }else if ( testType === 2){
+      //essay
+    }else if (testType == 3){
+      // true or false
+    }else if (testType == 11){
+      //mixed test types
+
+    }else{
+      return <View><Text> This test is unavailable, please choose another.</Text></View>
+    }
+    }
+    // Determine if icon is selected for the dropdown or not
+    const IconAdjustment = () => {
+      console.log('Icon: ' + openFilter)
+      if(openFilter === true){
+        return <View><Icon name='chevron-down-circle-outline' size={22} style={styles.txtStyle}/></View>
+      }else if (openFilter === false){
+        return <View><Icon name='chevron-back-circle-outline' size={22} style={styles.txtStyle}/></View>
+      }
+    }
     return (  
       testSelected? 
-      startTest? <View style={{flex:1, alignItems: 'center', paddingTop: 150}}>
-        <Text>Let's begin</Text>
-        <TouchableOpacity style={{
-             alignItems:'center',
-             backgroundColor: 'teal', 
-             height: 60,
-             margin: 10,
-             padding: 20,
-             width: '45%'
-             }}
-             onPress={getTestQuestion}>
-             <Text style={{color: 'lightgreen'}}>Begin</Text>
-         </TouchableOpacity>
-        </View>
+      startTest? <LetsBeginScreen getTestQuestion={getTestQuestion}/>
       :<View style={[ styles.container, {flexDirection: 'row' }]}>
-      <View style={[styles.container, {
-     flex: 1, flexDirection: "column", backgroundColor: "white", alignSelf: 'left'
-     }]}>
-         <Text>Ads</Text>
-     </View>
+  
      <View style={[styles.containerMultiple, {
      flex: 5, flexDirection: "column", backgroundColor: "lightgray" 
      }]}>
          
-       <Text>{progress}/{testLength}</Text> 
+         <View style={{ flexDirection: 'row' }}>
+       <Text style={{flex: 1}}>{progress}/{testLength}</Text> 
        <Text style={{
         color: 'blue',
         fontFamily: 'Times New Roman',
         fontSize: 24,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        flex:2, 
+        textAlign: 'right'
        }}>{score}</Text>
+       </View>
 
-      <Text style={{       
-         fontFamily: 'Times New Roman'
-      }}>{testSelectedTitle}</Text>
-       <Image source={{
-         uri: options.path}}
-         style={{marginTop: 25, width: '100%', height: 200, resizeMode: 'contain'}}
-         />
+      <Text style={{ fontFamily: 'Times New Roman', fontSize: 18, textAlign: 'center' }}>{testSelectedTitle}</Text>
+       
+       {/* Test selection */}
+        {GetTestType(testType)}
 
         <RadioButton.Group onValueChange={newValue => setValue(newValue)} value={value}> 
-             <RadioButton.Item label={options.option_1} value="first" status={ checked === 'first' ? 'checked' : 'unchecked' } position="leading"/>
-             <RadioButton.Item label={options.option_2} value="second" status={ checked === 'second' ? 'checked' : 'unchecked' } position="leading"/>
-             <RadioButton.Item label={options.option_3} value="third" status={ checked === 'third' ? 'checked' : 'unchecked' } position="leading"/>
-             <RadioButton.Item label={options.option_4} value="fourth" status={ checked === 'fourrth' ? 'checked' : 'unchecked' } position="leading"/> 
+             <RadioButton.Item label={options.option_1} value="first" color='blue' mode='android' status={ checked === 'first' ? 'checked' : 'unchecked' } position="trailing"/>
+             <RadioButton.Item label={options.option_2} value="second" color='blue' mode='android' status={ checked === 'second' ? 'checked' : 'unchecked' } position="trailing"/>
+             <RadioButton.Item label={options.option_3} value="third"  color='blue' mode='android' status={ checked === 'third' ? 'checked' : 'unchecked' } position="trailing"/>
+             <RadioButton.Item label={options.option_4} value="fourth"  color='blue' mode='android' status={ checked === 'fourrth' ? 'checked' : 'unchecked' } position="trailing"/> 
          </RadioButton.Group> 
          
          <View style={{
@@ -232,11 +265,7 @@ export default  function TestScreen ()  {
          </TouchableOpacity>
          </View>
      </View>
-     <View style={[styles.container, {
-     flex: 1, flexDirection: "column", backgroundColor: "white"
-     }]}>
-         <Text>Other Ads</Text>
-     </View>
+
   </View>
   : 
   <View style={styles.container}>
@@ -251,7 +280,7 @@ export default  function TestScreen ()  {
                 padding: 8,
                 borderRadius: 10,
                 height: 40,
-                width: '75%' }}>
+                width: '65%' }}>
               <TextInput 
                 placeholder='category search'
                 placeholderTextColor="rgba(255,255,255, 0.5)"
@@ -260,7 +289,18 @@ export default  function TestScreen ()  {
                 onChangeText={text => setInput(text)}
                 /> 
                 </TouchableOpacity>
-
+                <TouchableOpacity
+                onPress={() => setOpenFilter(!openFilter)}
+                style={{ 
+                  backgroundColor: 'steelblue', 
+                  padding: 8,
+                  borderRadius: 10,
+                  height: 40,
+                  marginLeft: 'auto',
+                  width: '11%' }}>
+                    {IconAdjustment()}
+                  {/* <Text >Filter</Text> */}
+                  </TouchableOpacity>  
                 <TouchableOpacity 
                     onPress={GetFilterTest}
                     style={{ 
@@ -283,7 +323,7 @@ export default  function TestScreen ()  {
                     data={titles}
                     renderItem={({ item }) => <View>
                       <RenderItem 
-                      testTitle={item.title + ': ' + item.genre} testSelection={item.link}/>
+                      testTitle={item.title + ' - ' + item.genre} testSelection={item.link}/>
                       </View>}
                     keyExtractor={(item, index) => index.toString()}
                     extraData={titles}
@@ -293,7 +333,7 @@ export default  function TestScreen ()  {
         )
       }
 
-
+// StyleSheet
 const styles = StyleSheet.create({
     btnStyle: {
         alignSelf: 'center',
