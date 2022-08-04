@@ -3,11 +3,11 @@
         "tests": 
             [
                     {
-                        "title": "",
-                        "genre": "",
-                        "genreId": "",
+                        "title": "Countries and Their Capitals",
+                        "genre": "World Geography",
+                        "genreId": "Geography",
                         "head": "",
-                        "type": 1,
+                        "type": 0,
                         "target": [
                             {
                                 "path": "",
