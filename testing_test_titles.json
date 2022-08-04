@@ -74,6 +74,14 @@
                         "metadata": "literature, writing, books"
                     },
                     {
+                        "title": "Countries and Their Capitals",
+                        "genre": "Geography",
+                        "sub": "Maps",
+                        "value": 8,
+                        "link": "",
+                        "metadata": "maps, geography, country, cities"
+                    },
+                    {
                         "title": "Famous Discoveries of Biological Science",
                         "genre": "Biology",
                         "sub": "",
