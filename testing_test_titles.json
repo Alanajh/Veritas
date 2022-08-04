@@ -76,9 +76,9 @@
                     {
                         "title": "Countries and Their Capitals",
                         "genre": "Geography",
-                        "sub": "Maps",
+                        "sub": "World Geography",
                         "value": 8,
-                        "link": "",
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/912-Countris_and_Capitals.json",
                         "metadata": "maps, geography, country, cities"
                     },
                     {
