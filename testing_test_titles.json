@@ -5,10 +5,18 @@
                     {
                         "title": "Famous Medical Discoveries",
                         "genre": "Medical",
-                        "sub": "",
+                        "sub": "Medical History",
                         "value": 51,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/610-Famous_Medical_Discoveries.json",
-                        "metadata": "medical history, "
+                        "metadata": "medical history, doctors, medicine, discovery, vaccine, biology"
+                    },
+                    {
+                        "title": "Famous Characters from Famous Books",
+                        "genre": "Literature",
+                        "sub": "Classic Literature",
+                        "value": 8,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/8_test-Literature-Classics.json",
+                        "meta": "literature, books, classics, novels, english"
                     },
                     {
                         "title": "United States Landmark Supreme Court Cases",
