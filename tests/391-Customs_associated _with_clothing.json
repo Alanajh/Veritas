@@ -10,7 +10,7 @@
                         "type": 1,
                         "target": [
                             {
-                                "path": "",
+                                "path": "https://www.sadanduseless.com/wp-content/uploads/2021/01/renaissance-fashion.png",
                                 "question":"",
                                 "option_1": "Underwear",
                                 "option_2": "Codpiece",
@@ -22,7 +22,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://themedievalshop.com/wp-content/uploads/2020/09/imwr1500gruenschwarz-1a.jpg",
                                 "question":"",
                                 "option_1": "Peplum",
                                 "option_2": "Berthas",
@@ -34,7 +34,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://m.media-amazon.com/images/I/4125aIbFc6L._AC_UX342_.jpg",
                                 "question":"",
                                 "option_1": "Ruche",
                                 "option_2": "Engageantes",
@@ -46,7 +46,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://m.media-amazon.com/images/I/51MpOSb1LSL._AC_UY445_.jpg",
                                 "question":"",
                                 "option_1": "Cumberbun",
                                 "option_2": "Tucker",
@@ -58,7 +58,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://cdn11.bigcommerce.com/s-46b27/images/stencil/1280x1280/products/2545/7367/Tippet_Red__91122.1626895868.jpg?c=2",
                                 "question":"",
                                 "option_1": "Aiguillette",
                                 "option_2": "Pelerine",
@@ -70,7 +70,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://wordsmith.org/words/images/cockade_large.jpg",
                                 "question":"",
                                 "option_1": "Bretelles",
                                 "option_2": "Cockade",
@@ -82,7 +82,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://www.collectorsweekly.com/uploads/2016/03/17131532/DressWithBustle.jpg",
                                 "question":"",
                                 "option_1": "Bustle",
                                 "option_2": "Sontags",
@@ -94,7 +94,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://ychef.files.bbci.co.uk/976x549/p09719yc.jpg",
                                 "question":"",
                                 "option_1": "Bouillonné",
                                 "option_2": "Bijou Train",
@@ -106,7 +106,7 @@
                                 "point": ""
                             },
                             {
-                                "path": "",
+                                "path": "https://upload.wikimedia.org/wikipedia/commons/0/07/George_White%2C_The_Right_Honourable_Sr._John_Coke_Kt._%281724%29.jpg",
                                 "question":"",
                                 "option_1": "Truss",
                                 "option_2": "Tunic",
@@ -118,7 +118,7 @@
                                 "point": "A detachable pleated collar in linen and/or lace starched into shape and sometimes supported underneath"
                             },
                             {
-                                "path": "",
+                                "path": "https://1tq45j21k9qr27g1703pgsja-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/CI53.72.15_S-copy-1280x640.jpg",
                                 "question":"",
                                 "option_1": "Ruff",
                                 "option_2": "Crinoline",
@@ -130,7 +130,7 @@
                                 "point": "Crinolines were petticoats, originally made of crin—the French word for “horsehair."
                             },
                             {
-                                "path": "",
+                                "path": "https://dashikishirtafrican.com/wp-content/uploads/2018/10/Dashiki-Shirts-Men-013.jpg",
                                 "question":"",
                                 "option_1": "Jumper",
                                 "option_2": "Sweater",
@@ -140,20 +140,7 @@
                                 "direct": "third",
                                 "hint_1": "",
                                 "point": "The dashiki is a colorful garment that covers the top half of the body, designed by Dutch designer Toon van de Mannaker for Netherlands-based Vlisco, worn mostly in West Africa. It is also known as a Kitenge in East Africa and is a common item of clothing in Tanzania and Kenya."
-                            },
-                            {
-                                "path": "",
-                                "question": "",
-                                "option_1": "Corselet/corselette",
-                                "option_2": "Epaulettes ",
-                                "option_3": "Jabots",
-                                "option_4": "Muffs",
-                                "answer": "Corselet/corselette",
-                                "direct": "first",
-                                "hint_1": "",
-                                "point": "The Corselet was used as a fashion term starting in the 1860s as a outer garment for girls that wrapped their midriffs, and was constructed similarly to the adult Swiss waists, so the words became interchangeable." 
-
-                            
+                            }
                          ]
                     }
               ]
