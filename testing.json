@@ -2,36 +2,319 @@
     "data": {
         "tests": 
             [
-                {
-                    "title": "Companies and Their Owners",
-                    "genre": "Business History"
-                },
-                {
-                    "title": "Ancient Civilizatons and Their desendents",
-                    "genre": "Cultural History"
-                },
-                {
-                    "title": "Cultural Letters",
-                    "genre": "Linguistic History"
-                },
-                {
-                    "title": "Historical Scandals of The United Kingdon",
-                    "genre": "European History"
-                },
-                {
-                    "title": "The Market Crash of 1929",
-                    "genre": "U.S. History"
-                },
-                {
-                    "title": "The History of Ellis Island",
-                    "genre": "U.S. History"
-                },
-                {
-                    "title": "Momuments Around The World",
-                    "genre": "World History"
-                }
-
-            ]
+                    {
+                        "title": "Famous Medical Discoveries",
+                        "genre": "Medical",
+                        "sub": "Medical History",
+                        "value": 51,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/610-Famous_Medical_Discoveries.json",
+                        "metadata": "medical history, doctors, medicine, discovery, vaccine, biology"
+                    },
+                    {
+                        "title": "Famous Characters from Famous Books",
+                        "genre": "Literature",
+                        "sub": "Classic Literature",
+                        "value": 8,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/8_test-Literature-Classics.json",
+                        "meta": "literature, books, classics, novels, english"
+                    },
+                    {
+                        "title": "United States Landmark Supreme Court Cases",
+                        "genre": "Legal",
+                        "sub": "United States Law",
+                        "value": 3,
+                        "link": "google.com",
+                        "metadata": "law, legal, supreme court, case, landmark"
+                    },
+                    {
+                        "title": "Identifying Historical Clothing Items",
+                        "genre": "Social Science",
+                        "sub": "Fashion History",
+                        "value": 3,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/391-Customs_associated%20_with_clothing.json",
+                        "metadata": "clothing, fashion, style, history"
+                    },
+                    {
+                        "title": "Company Founders and Co-Founders",
+                        "genre": "Business",
+                        "sub": "Business History",
+                        "value": 3,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/330-Companies_and_Owners.json",
+                        "metadata": "business, company, companies, history, president, ceo, finance, economics"
+                    },
+                    {
+                        "title": "World Leaders and Their Parties",
+                        "genre": "World History",
+                        "sub": "Military History",
+                        "value": 22,
+                        "link": "cnbc.com",
+                        "metadata": "military history, political parties, politics, organizations, leaders"
+                    },
+                    {
+                        "title": "Countries and Their Parties",
+                        "genre": "World History",
+                        "sub": "Political History",
+                        "value": 22,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/329-Political_Parties_and_Leaders.json",
+                        "metadata": "military history, political parties, politics, organizations, leaders"
+                    },
+                    {
+                        "title": "U.S. Event, Landmarks & Monuments",
+                        "genre": "American History",
+                        "sub": "",
+                        "value": 99,
+                        "link": "",
+                        "metadata": "United States, American, monuments, landmarks, historic events"
+                    },
+                    {
+                        "title": "Great Lines from Great Works",
+                        "genre": "Literature",
+                        "sub": "",
+                        "value": 8,
+                        "link": "",
+                        "metadata": "literature, writing, books"
+                    },
+                    {
+                        "title": "Countries and Their Capitals",
+                        "genre": "Geography",
+                        "sub": "World Geography",
+                        "value": 8,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/912-Countris_and_Capitals.json",
+                        "metadata": "maps, geography, country, cities"
+                    },
+                    {
+                        "title": "Famous Discoveries of Biological Science",
+                        "genre": "Biology",
+                        "sub": "",
+                        "value": 52,
+                        "link": "",
+                        "metadata": "biology, discoveries, science"
+                    },
+                    {
+                        "title": "World Famous Art Sculptures",
+                        "genre": "World Art",
+                        "sub": "Sculpture",
+                        "value": 70,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/730-Famous_Sculptures-Arts.json",
+                        "metadata": "world, art, sculpture, history"
+                    },
+                    {
+                        "title": "Flags of the Americas",
+                        "genre": "Geography",
+                        "sub": "",
+                        "value": 91,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/920-Flags_of_the_Americas.json",
+                        "metadata": "flags, americas, south america, countries, geography"
+                    },
+                    {
+                        "title": "Flags of Africa",
+                        "genre": "Geography",
+                        "sub": "",
+                        "value": 92,
+                        "link": "",
+                        "metadata": "flags, africa, countries, geography"
+                    },
+                    {
+                        "title": "Flags of Europe",
+                        "genre": "Geography",
+                        "sub": "",
+                        "value": 93,
+                        "link": "",
+                        "metadata": "flags, europe, nordic, countries, geography"
+                    },
+                    {
+                        "title": "The Elements of the Periodic Table",
+                        "genre": "Science",
+                        "sub": "",
+                        "value": 54,
+                        "link": "",
+                        "metadata": "elements, science, periodic, table, chemistry"
+                    },
+                    {
+                        "title": "Famous Companies That Changed Their Names",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": 10,
+                        "link": "",
+                        "metadata": "business, history, companies, finance"
+                    },
+                    {
+                        "title": "Zodiac Signs",
+                        "genre": "Astrology",
+                        "sub": "",
+                        "value": 11,
+                        "link": "",
+                        "metadata": "astrology, zodiac, signs"
+                    },
+                    {
+                        "title": "Music of the 90s",
+                        "genre": "Music",
+                        "sub": "",
+                        "value": 12,
+                        "link": "",
+                        "metadata": "music, 90s, r&b, sound"
+                    },
+                    {
+                        "title": "Sounds of Motown",
+                        "genre": "Music",
+                        "sub": "",
+                        "value": 13,
+                        "link": "",
+                        "metadata": "sound, motown, music"
+                    },
+                    {
+                        "title": "The Siege of/at Yorktown",
+                        "genre": "American History",
+                        "sub": "",
+                        "value": 94,
+                        "link": "",
+                        "metadata": "american, history, battles, siege, yorktown"
+                    },
+                    {
+                        "title": "Famous Characters From Literature",
+                        "genre": "Literature",
+                        "sub": "",
+                        "value": 82,
+                        "link": "",
+                        "metadata": "characters, literature, reading, writing, books"
+                    }
+                    ,
+                    {
+                        "title": "Famous Artist and Their Art",
+                        "genre": "Art",
+                        "sub": "",
+                        "value": 16,
+                        "link": "",
+                        "metadata": "art, artists, creative, arts, history"
+                    }
+                    ,
+                    {
+                        "title": "Greek Mythology",
+                        "genre": "Mythology",
+                        "sub": "",
+                        "value": 2,
+                        "link": "",
+                        "metadata": "greek, greece, myth, mythology, religion, history"
+                    },
+                    {
+                        "title": "Identifying Algebraic Equations",
+                        "genre": "Mathematics",
+                        "sub": "",
+                        "value": 18,
+                        "link": "",
+                        "metadata": "math, algebra, equations"
+                    },
+                    {
+                        "title": "Events That Shaped The U.S. Presidencies",
+                        "genre": "United States History",
+                        "sub": "",
+                        "value": 9.1,
+                        "link": "",
+                        "metadata": "United States, history, events, president, usa "
+                    },
+                    {
+                        "title": "Immortals of Greek Mythology",
+                        "genre": "Greek Mythology",
+                        "sub": "",
+                        "value": 398.2,
+                        "metadata": "greek, mythology, history, religion, myth"
+                    },
+                    {
+                        "title": "Government Conspiracies - Health & Medicine",
+                        "genre": "Conspiracies",
+                        "sub": "",
+                        "value": 1.981,
+                        "link": "",
+                        "metadata": "conspiracy, government, history, health, medicine, secrets"
+                    },
+                    {
+                        "title": "Government Conspiracies - Military",
+                        "genre": "Conspiracies",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "conspiracy, government, history, military, secrets"
+                    },
+                    {
+                        "title": "Companies and Their Owners",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "Business History, Business, History, Leaders, Finance"
+                    },
+                    {
+                        "title": "Ancient Civilizations and Their Descendents",
+                        "genre": "World History",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "World, History, Culture, Race"
+                    },
+                    {
+                        "title": "Cultural Letters",
+                        "genre": "Linguistics",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "Letters, Language, Linguistics, Phoenetics"
+                    },
+                    {
+                        "title": "Historical Scandals of the United Kingdom",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "British, United Kingdom, U.K., England, Scandal"
+                    },
+                    {
+                        "title": "The Market Crash of 1929",
+                        "genre": "Business",
+                        "sub": "",
+                        "value": 0,
+                        "link": "",
+                        "metadata": "Business, History, American History, Finance"
+                    },
+                    {
+                        "title": "The History of Ellis Island",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 9,
+                        "link": "",
+                        "metadata": "American History, New York, Island, "
+                    },
+                    {
+                        "title": "Monuments Around The World",
+                        "genre": "History",
+                        "sub": "World History",
+                        "value": 9,
+                        "link": "",
+                        "metadata": "history, world history, monuments, landmarks"
+                    },
+                    {
+                        "title": "Characters from Disney Movies",
+                        "genre": "Arts",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "movies, characters, disney, arts"
+                    },
+                    {
+                        "title": "The Red Scare",
+                        "genre": "History",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "history, politics, ideology"
+                    },
+                    {
+                        "title": "Italian I - Greetings & Numbers",
+                        "genre": "Language",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "italian, language, arts, foreign, linguistic"
+                    }  
+                  ]
     }
 }
-      

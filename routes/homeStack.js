@@ -8,6 +8,9 @@ import RoomReach from "../components/roomReach";
 import TestScreen from "../components/testScreen";
 import MultipleOptions from "../testTypes/multipleOptions"
 import ScoreScreen from "../components/scoreScreen";
+import MathTests from "../components/mathTests";
+/* Purely for testing */
+import TestCode from "../components/testingCode";
 
 const screens = {
     Home: {
@@ -26,7 +29,7 @@ const screens = {
         screen: TestScreen
     },
     Profile: {
-        screen: ScoreScreen
+        screen: MathTests
     }
 }
 const HomeStack = createStackNavigator(screens);

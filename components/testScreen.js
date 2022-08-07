@@ -28,6 +28,7 @@ export default  function TestScreen ()  {
     const [openFilter, setOpenFilter] = useState(false);
     const [startTest, setStartTest] = useState(false); // indicates the "Lets Begin" button
     const [scoreScreen, setScoreScreen] = useState(false);
+    const [scoreScreenTitles, setScoreScreenTitles] = useState([])
 
     /////////////////////////////////////////////////////////////////////
     /* TEST OPTIONS */
@@ -36,6 +37,10 @@ export default  function TestScreen ()  {
     const [ testLength, setTestLength] = useState(null);
     const [ img, setImg ] = useState('');
     const [ score, setScore ] = useState(0);
+    const [ scores, setScores] = useState([]);
+    const [ genrw, setGenre] = useState([]);
+    const [ date, setDate] = useState(date);
+
     const [ fine, setFine ] = useState(false);
     const [ testUrl, setTestUrl ] = useState('');
       
@@ -86,10 +91,35 @@ export default  function TestScreen ()  {
           />
         );
       }
+      const ItemDividerScore = () => {
+        return (
+          <View
+            style={{
+              height: 1,
+              width: '45%',
+              backgroundColor: 'blue',
+            }}
+          />
+        );
+      }
+      const ItemDividerTitle = () => {
+        return (
+          <View
+            style={{
+              height: 1,
+              width: '100%',
+              backgroundColor: 'blue',
+            }}
+          />
+        );
+      }
+
+
 
       const getTest = (testTitle, urlTest) => {
         if(urlTest){
-          setTestSelected(true)
+         // setTestSelected(false)
+          setScore(0)
           setOptions('');
           setTestUrl(urlTest)
           setStartTest(true)
@@ -98,8 +128,20 @@ export default  function TestScreen ()  {
         }
       }
     // Filter the test list  based on the search object
-      const GetFilterTest = () => {
-        titles.filter((item) => {
+      const GetFilterTest = (searchValue) => {
+        if(searchValue){
+          console.log(searchValue)
+        }else{
+
+        }
+       
+       /* const filteredData = titles[0].title.filter((i) => {
+          return Object.values(i).join('').toLowerCase().includes(txtInput.toLowerCase())
+        }) */
+        
+        
+         /* items !== 'Famous Medical Discoveries' */
+       /*  titles.filter((item) => {
             if(txtInput == ''){
                 return item
             } else if (item.title.toLowerCase().includes(txtInput.toLocaleLowerCase())){
@@ -108,7 +150,7 @@ export default  function TestScreen ()  {
         }).map((item, key) => {
             //return console.log(item.title)
             setTitles([item])
-        })
+        }) */
       }
 
       // Display the icon that comes before each test .... to be upgraded to a differrent icon based on the subject/genre
@@ -121,7 +163,26 @@ export default  function TestScreen ()  {
             
         </Text>
       }
+      // Renders the score visual to the view    
+      const RenderScore = ({scores}) =>{
+       // return <Text style={styles.listTxt}>{scores}</Text>
+       
+      }
 
+      const RenderScoreTitle = ({scoreTitle}) => {
+        return <Text style={styles.listTxt}
+        >{scoreTitle}</Text>
+      }
+
+      const RenderScoreX = ({genre}) => {
+        return <Text 
+                  
+                  /* onPress={() => } */> 
+            <Icon name='chevron-down-outline' size={15} color='blue'/>
+            {genre} 
+            
+        </Text>
+      }
     /* TEST TAKING SCREEN */
     const getTestQuestion = () => {
       setTestSelected(true)
@@ -136,32 +197,28 @@ export default  function TestScreen ()  {
         })   
         getNext();
     }
-    
+
     const getNext = () => { 
         let done = false;
        setValue('first')
-        if(progress < testLength && done == false){
+        if(progress < testLength            ){
           setStartTest(false)
           setProgress(progress + 1)
-          console.log('getNext ran')
-           console.log(value + " " + options.direct)
            if(value == options.direct){
                 setScore(score + 100)
             }else{
               // do a count to compare wrong vs right and add a select button in the settings to negatively count wrong answers
+             
             } 
         }else{
+         // setProgress(progress + 0)
           done = true
-          testDone()
         }
-    }
-    const testDone = () => {
-      setScore(true)
-      setTestSelected(false)
-      setReload(true)
-    }
-    const scoreToMain = () => {
-      setStartTest(true)
+        if(progress == testLength){
+          setScores(scores.concat(score))
+          setScoreScreenTitles(scoreScreenTitles.concat(testSelectedTitle))
+          setTestSelected(false)
+        }
     }
     const getPrevious = () => { 
         if(progress > 0){
@@ -198,9 +255,14 @@ export default  function TestScreen ()  {
       //essay
     }else if (testType == 3){
       // true or false
-    }else if (testType == 11){
-      //mixed test types
-
+    }else if (testType == 7){
+      return <View>
+          <Text style={{ lineHeight: 20,  padding: 25, fontSize: 22, fontWeight: 'bold', textAlign: 'center'}} >{options.question}</Text>
+          <Image source={{
+            uri: options.path}}
+            style={{marginTop: 25, width: '100%', height: 200, resizeMode: 'contain'}}
+            />
+        </View>
     }else{
       return <View><Text> This test is unavailable, please choose another.</Text></View>
     }
@@ -214,10 +276,11 @@ export default  function TestScreen ()  {
         return <View><Icon name='chevron-back-circle-outline' size={22} style={styles.txtStyle}/></View>
       }
     }
+
     return (  
-      testSelected? 
+      //testSelected? 
       startTest? <LetsBeginScreen getTestQuestion={getTestQuestion}/>
-      :<View style={[ styles.container, {flexDirection: 'row' }]}>
+      : testSelected? <View style={[ styles.container, {flexDirection: 'row' }]}>
   
      <View style={[styles.containerMultiple, {
      flex: 5, flexDirection: "column", backgroundColor: "lightgray" 
@@ -266,122 +329,196 @@ export default  function TestScreen ()  {
          </View>
      </View>
 
-  </View>
-  : 
-  <View style={styles.container}>
-           
-           <View style={[styles.container, {
-            flexDirection: 'row',
-            height: 50,
-            }]}>
-            <TouchableOpacity 
-                style={{ 
-                backgroundColor: 'steelblue', 
-                padding: 8,
-                borderRadius: 10,
-                height: 40,
-                width: '65%' }}>
-              <TextInput 
-                placeholder='category search'
-                placeholderTextColor="rgba(255,255,255, 0.5)"
-                style={styles.txtStyle}
-                value={txtInput}
-                onChangeText={text => setInput(text)}
-                /> 
-                </TouchableOpacity>
-                <TouchableOpacity
-                onPress={() => setOpenFilter(!openFilter)}
-                style={{ 
-                  backgroundColor: 'steelblue', 
-                  padding: 8,
-                  borderRadius: 10,
-                  height: 40,
-                  marginLeft: 'auto',
-                  width: '11%' }}>
-                    {IconAdjustment()}
-                  {/* <Text >Filter</Text> */}
-                  </TouchableOpacity>  
+      </View>
+      : // List of tests
+      score? 
+      <View style={styles.scoreStyles}>
+        <View style={styles.scoreBoard}>
+        <Text style={styles.scoreTxt}>SCORES</Text>
+        </View>
+        <View>
+        <FlatList
+            style={{
+              textAlign: 'right'
+            }}
+            data={scoreScreenTitles}
+            renderItem={({ item }) => <View>
+              <RenderScoreTitle 
+              scoreTitle={item} />
+              </View>}
+            keyExtractor={(item, index) => index.toString()}
+            extraData={scoreScreenTitles}
+            ItemSeparatorComponent={ItemDividerScore}/>
+        <FlatList
+           style={styles.flat}
+           data={scores}
+           renderItem={({ item }) => <View>
+             <RenderScoreTitle 
+             scoreTitle={item} />
+             </View>}
+           keyExtractor={(item, index) => index.toString()}
+           extraData={titles}
+           ItemSeparatorComponent={ItemDividerScore}/>
+                </View>
+        <TouchableOpacity
+            style={styles.btnHome}
+            onPress={() => {setReload(true)}}>
+            <Text
+                style={styles.btnTxt}>Tests</Text>
+        </TouchableOpacity>
+      </View>:
+      <View style={styles.container}>
+              
+              <View style={[styles.container, {
+                flexDirection: 'row',
+                height: 50,
+                }]}>
                 <TouchableOpacity 
-                    onPress={GetFilterTest}
                     style={{ 
                     backgroundColor: 'steelblue', 
                     padding: 8,
                     borderRadius: 10,
                     height: 40,
-                    marginLeft: 'auto',
-                    width: '22%' }}>
-              <Text style={{
-                alignSelf: 'center',
-                color: 'mintcream',
-                fontWeight: 'bold'
-                }}>Search</Text>
-                </TouchableOpacity>
-            </View>
+                    width: '65%' }}>
+                  <TextInput 
+                    placeholder='category search'
+                    placeholderTextColor="rgba(255,255,255, 0.5)"
+                    style={styles.txtStyle}
+                    value={txtInput}
+                    onChangeText={text => setInput(text)}
+                    /> 
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                    onPress={() => setOpenFilter(!openFilter)}
+                    style={{ 
+                      backgroundColor: 'steelblue', 
+                      padding: 8,
+                      borderRadius: 10,
+                      height: 40,
+                      marginLeft: 'auto',
+                      width: '11%' }}>
+                        {IconAdjustment()}
+                      {/* <Text >Filter</Text> */}
+                      </TouchableOpacity>  
+                    <TouchableOpacity 
+                        onPress={() => GetFilterTest(txtInput, testGenre)}
+                        style={{ 
+                        backgroundColor: 'steelblue', 
+                        padding: 8,
+                        borderRadius: 10,
+                        height: 40,
+                        marginLeft: 'auto',
+                        width: '22%' }}>
+                  <Text style={{
+                    alignSelf: 'center',
+                    color: 'mintcream',
+                    fontWeight: 'bold'
+                    }}>Search</Text>
+                    </TouchableOpacity>
+                </View>
 
-               <FlatList
-                    style={styles.flat}
-                    data={titles}
-                    renderItem={({ item }) => <View>
-                      <RenderItem 
-                      testTitle={item.title + ' - ' + item.genre} testSelection={item.link}/>
-                      </View>}
-                    keyExtractor={(item, index) => index.toString()}
-                    extraData={titles}
-                    ItemSeparatorComponent={ItemDivider}
-                />
-            </View>
-        )
-      }
+                  <FlatList
+                        style={styles.flat}
+                        data={titles}
+                        renderItem={({ item }) => <View>
+                          <RenderItem 
+                          testTitle={item.title + ' - ' + item.genre} testSelection={item.link}
+                          testGenre={item.genre}/>
+                          </View>}
+                        keyExtractor={(item, index) => index.toString()}
+                        extraData={titles}
+                        ItemSeparatorComponent={ItemDivider}
+                    />
+                </View>
+            )
+          }
 
-// StyleSheet
-const styles = StyleSheet.create({
-    btnStyle: {
-        alignSelf: 'center',
-        backgroundColor: 'orange',
-        justifyContent: 'space-between',
-        margin: 15,
-        padding: 25
-    },
-    container:{
-        backgroundColor: 'lightgray',
-        height: '95%',
-        padding: 8,
-    },
-    container2: {
-        flex: 1,
-        padding: 20,
+    // StyleSheet
+    const styles = StyleSheet.create({
+        btnStyle: {
+            alignSelf: 'center',
+            backgroundColor: 'orange',
+            justifyContent: 'space-between',
+            margin: 15,
+            padding: 25
+        },
+        container:{
+            backgroundColor: 'lightgray',
+            height: '95%',
+            padding: 8,
+        },
+        container2: {
+            flex: 1,
+            padding: 20,
+          },
+        flat: {
+            paddingBottom: 15,
+        },
+        l: {
+            borderColor: 'lightgray',
+            borderWidth: 2,
+            margin: 5,
+            padding: 5,
+        },
+        listTxt:{
+          // border: '2px solid blue',
+            paddingBottom: 5,
+            paddingTop: 15,
+            width: '100%',
+        },
+        title: {
+            alignSelf: 'center',
+            backgroundColor: 'lightblue',
+            justifyContent: 'center',
+            margin: 15
+        },
+        titleTxt: { 
+            alignSelf: 'center',
+            backgroundColor: 'lightblue',
+            fontWeight: '500',
+            padding: 10,
+            width: '100%'
+        },
+        txtStyle:{
+            color: 'mintcream',
+            paddingLeft: 5,
+            width: 200,
+        },
+        /* *****************  SCORES STYLES **************** */
+        btnHome:{
+          alignItems: 'center',
+          backgroundColor: 'black',
+          margin: 15,
       },
-    flat: {
-        paddingBottom: 15,
-    },
-    l: {
-        borderColor: 'lightgray',
-        borderWidth: 2,
-        margin: 5,
-        padding: 5,
-    },
-    listTxt:{
-       // border: '2px solid blue',
-        paddingBottom: 5,
-        paddingTop: 15,
-        width: '100%',
-    },
-    title: {
+      btnTxt:{
+          color: 'white',
+          padding: 15
+      },
+      divider: {
+          height: 1,
+          width: '80%',
+          backgroundColor: 'blue'
+      },
+      flatlistStyle:{
+  
+      },
+      renderScoreStyle:{
         alignSelf: 'center',
-        backgroundColor: 'lightblue',
-        justifyContent: 'center',
-        margin: 15
-    },
-    titleTxt: { 
+        color: 'green',
+        fontSize: 18,
+        fontWeight: '900',
+        padding: 25,
+        letterSpacing: '5'
+      },
+      scoreBoard:{
+
+      },
+      scoreStyles: {
+      },
+      scoreTxt:{
         alignSelf: 'center',
-        backgroundColor: 'lightblue',
-        fontWeight: '500',
-        padding: 10,
-        width: '100%'
-    },
-    txtStyle:{
-        color: 'mintcream',
-        paddingLeft: 5,
-        width: 200,
-    }
-})
+        fontSize: 18,
+        fontWeight: 'bold',
+        paddingTop: 80,
+      }
+    })
