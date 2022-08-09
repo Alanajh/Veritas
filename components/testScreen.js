@@ -1,7 +1,7 @@
 import react, { useState, useEffect, useRef } from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { RadioButton } from "react-native-paper";
-import DropDownPicker from 'react-native-dropdown-picker';
+
 
 import { 
   Alert,
@@ -39,7 +39,8 @@ export default  function TestScreen ()  {
     const [ score, setScore ] = useState(0);
     const [ scores, setScores] = useState([]);
     const [ genrw, setGenre] = useState([]);
-    const [ date, setDate] = useState(date);
+    const [ date, setDate] = useState(new Date);
+    const [ scoreDate, setScoreDate] = ([])
 
     const [ fine, setFine ] = useState(false);
     const [ testUrl, setTestUrl ] = useState('');
@@ -96,7 +97,7 @@ export default  function TestScreen ()  {
           <View
             style={{
               height: 1,
-              width: '45%',
+              width: '100%',
               backgroundColor: 'blue',
             }}
           />
@@ -159,30 +160,17 @@ export default  function TestScreen ()  {
                   style={styles.listTxt}
                   onPress={() => getTest(testTitle, testSelection, testGenre)}> 
             <Icon name='chevron-back-outline' size={15} color='blue'/>
-            {testTitle} 
+            {testTitle + ' - ' + date} 
             
         </Text>
-      }
-      // Renders the score visual to the view    
-      const RenderScore = ({scores}) =>{
-       // return <Text style={styles.listTxt}>{scores}</Text>
-       
       }
 
       const RenderScoreTitle = ({scoreTitle}) => {
         return <Text style={styles.listTxt}
         >{scoreTitle}</Text>
+          
       }
 
-      const RenderScoreX = ({genre}) => {
-        return <Text 
-                  
-                  /* onPress={() => } */> 
-            <Icon name='chevron-down-outline' size={15} color='blue'/>
-            {genre} 
-            
-        </Text>
-      }
     /* TEST TAKING SCREEN */
     const getTestQuestion = () => {
       setTestSelected(true)
@@ -201,7 +189,7 @@ export default  function TestScreen ()  {
     const getNext = () => { 
         let done = false;
        setValue('first')
-        if(progress < testLength            ){
+        if(progress < testLength){
           setStartTest(false)
           setProgress(progress + 1)
            if(value == options.direct){
@@ -216,7 +204,8 @@ export default  function TestScreen ()  {
         }
         if(progress == testLength){
           setScores(scores.concat(score))
-          setScoreScreenTitles(scoreScreenTitles.concat(testSelectedTitle))
+          setScoreDate(scoreDate.concat(date))
+          setScoreScreenTitles(scoreScreenTitles.concat(testSelectedTitle).sort())
           setTestSelected(false)
         }
     }
@@ -316,10 +305,9 @@ export default  function TestScreen ()  {
              width: '100%'
          }}>
          <TouchableOpacity style={{
-             alignItems:'center',
              backgroundColor: 'teal', 
              height: 60,
-             margin: 10,
+             marginLeft: 'auto',
              padding: 20,
              width: '45%'
              }}
@@ -335,11 +323,16 @@ export default  function TestScreen ()  {
       <View style={styles.scoreStyles}>
         <View style={styles.scoreBoard}>
         <Text style={styles.scoreTxt}>SCORES</Text>
+        <View style={{ marginLeft: 'auto', paddingRight: 25}}>
+          <Icon name='funnel-outline' size={25} color='blue'/>
+        </View>
         </View>
         <View>
+        <View style={{ flexDirection: 'row' }}>
         <FlatList
             style={{
-              textAlign: 'right'
+              textAlign: 'right',
+              paddingLeft: 16
             }}
             data={scoreScreenTitles}
             renderItem={({ item }) => <View>
@@ -348,7 +341,9 @@ export default  function TestScreen ()  {
               </View>}
             keyExtractor={(item, index) => index.toString()}
             extraData={scoreScreenTitles}
-            ItemSeparatorComponent={ItemDividerScore}/>
+            ItemSeparatorComponent={ItemDividerTitle}/>
+
+
         <FlatList
            style={styles.flat}
            data={scores}
@@ -359,7 +354,22 @@ export default  function TestScreen ()  {
            keyExtractor={(item, index) => index.toString()}
            extraData={titles}
            ItemSeparatorComponent={ItemDividerScore}/>
+
+
+        <FlatList
+            style={styles.flat}
+            data={scoreDate}
+            renderItem={({ item }) => <View>
+              <RenderScoreTitle
+              scoreTitle={item} />
+              </View>}
+            keyExtractor={(item, index) => index.toString()}
+            extraData={scoreDate}
+            ItemSeparatorComponent={ItemDividerScore}/>
+
+
                 </View>
+              </View>
         <TouchableOpacity
             style={styles.btnHome}
             onPress={() => {setReload(true)}}>
@@ -496,7 +506,7 @@ export default  function TestScreen ()  {
       },
       divider: {
           height: 1,
-          width: '80%',
+          width: '810%',
           backgroundColor: 'blue'
       },
       flatlistStyle:{
@@ -505,15 +515,27 @@ export default  function TestScreen ()  {
       renderScoreStyle:{
         alignSelf: 'center',
         color: 'green',
+        flex: 1,
         fontSize: 18,
         fontWeight: '900',
         padding: 25,
+        letterSpacing: '5'
+      },
+      renderScoreTitle:{
+        alignSelf: 'center',
+        color: 'green',
+        flex: 2,
+        fontSize: 18,
+        fontWeight: '900',
+        padding: 25,
+        marginLeft: 15,
         letterSpacing: '5'
       },
       scoreBoard:{
 
       },
       scoreStyles: {
+        padding: 10
       },
       scoreTxt:{
         alignSelf: 'center',
