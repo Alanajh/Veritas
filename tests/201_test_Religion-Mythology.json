@@ -3,11 +3,11 @@
         "tests": 
             [
                     {
-                        "title": "",
-                        "genre": "",
-                        "genreId": "",
-                        "head": "",
-                        "type": 1,
+                        "title": "Facts About Greek Mythology",
+                        "genre": "Mythology",
+                        "genreId": "Greek Mythology",
+                        "head": "Religion",
+                        "type": 0,
                         "target": [
                             {
                                 "path": "",
