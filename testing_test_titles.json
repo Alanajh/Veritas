@@ -124,9 +124,9 @@
                     {
                         "title": "The Elements of the Periodic Table",
                         "genre": "Science",
-                        "sub": "",
+                        "sub": "Inorganic Chemistry",
                         "value": 54,
-                        "link": "",
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/546-periodic_table_I.json",
                         "metadata": "elements, science, periodic, table, chemistry"
                     },
                     {
