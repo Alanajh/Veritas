@@ -5,7 +5,7 @@
                     {
                         "title": "Legal Terminology",
                         "genre": "Law",
-                        "genreId": "Legal Cases,
+                        "genreId": "Legal Cases",
                         "head": "Law",
                         "type": 0,
                         "meta": "",
@@ -46,7 +46,7 @@
                                 "point": ""
                             },{
                                 "path": "",
-                                "question":"done with respect to or in the interests of one side only or of an interested outside party.,
+                                "question":"done with respect to or in the interests of one side only or of an interested outside party.",
                                 "option_1": "Nolo contendere",
                                 "option_2": "In Rem",
                                 "option_3": "Amicus Curiae",
