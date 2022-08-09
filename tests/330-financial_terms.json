@@ -3,10 +3,10 @@
         "tests": 
             [
                     {
-                        "title": "Financial Terms and Definitions",
+                        "title": "General Financial Terms and Definitions",
                         "genre": "Finance",
                         "genreId": "General Finance",
-                        "head": "Economis",
+                        "head": "Economics",
                         "type": 0,
                         "target": [
                             {
@@ -95,7 +95,7 @@
                             },
                            {
                                 "path": "",
-                                "question":"",
+                                "question": "A CAGR (Compound Growth Ratio is...",
                                 "option_1": "",
                                 "option_2": "",
                                 "option_3": "",
