@@ -11,6 +11,15 @@
                         "metadata": "medical history, doctors, medicine, discovery, vaccine, biology"
                     },
                     {
+                        "title": "Legal Terminology",
+                        "genre": "Law",
+                        "sub": "Legal Cases",
+                        "value": 0,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/348-legal_terminology.json",
+                        "metadata": "law, legal, definitions",
+                        "disclaimer":""
+                    },
+                    {
                         "title": "United States Landmark Supreme Court Cases",
                         "genre": "Legal",
                         "sub": "United States Law",
@@ -25,6 +34,7 @@
                         "value": 3,
                         "link": "",
                         "metadata": "history, african, american, leaders, black"
+                    },
                     {
                         "title": "Identifying Historical Clothing Items",
                         "genre": "Social Science",
