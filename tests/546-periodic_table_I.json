@@ -8,7 +8,7 @@
                         "genreId": "Periodic Elements",
                         "head": "Science",
                         "type": 1,
-                      "disclaimer": "The following test does not represent all of the elements in periodic table.
+                      "disclaimer": "The following test does not represent all of the elements in periodic table.",
                         "target": [
                             {
                                 "path": "https://github.com/Alanajh/Veritas/blob/main/assets/Hydrogen.png",
