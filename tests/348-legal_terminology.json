@@ -1,0 +1,152 @@
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Legal Terminology",
+                        "genre": "Law",
+                        "genreId": "Legal Cases,
+                        "head": "Law",
+                        "type": 0,
+                        "meta": "",
+                        "disclaimer": "",
+                        "target": [
+                            {
+                                "path": "Legal Terminology I",
+                                "question":"A written law passed by a legislative body.",
+                                "option_1": "Statute",
+                                "option_2": "Proclamations",
+                                "option_3": "Orders",
+                                "option_4": "By-laws",
+                                "answer": "Statute",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"A written statement confirmed by oath or affirmation, for use as evidence in court.",
+                                "option_1": "Cross examination",
+                                "option_2": "Writ",
+                                "option_3": "Discovery",
+                                "option_4": "Affidavit",
+                                "answer": "Affidavit",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"A writ requiring a person under arrest to be brought before a judge or into court, especially to secure the person's release unless lawful grounds are shown for their detention.",
+                                "option_1": "Ad Hoc",
+                                "option_2": "Per Diem",
+                                "option_3": "Habeaus Corpus",
+                                "option_4": "Carpe Diem",
+                                "answer": "Habeaus Corpus",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"done with respect to or in the interests of one side only or of an interested outside party.,
+                                "option_1": "Nolo contendere",
+                                "option_2": "In Rem",
+                                "option_3": "Amicus Curiae",
+                                "option_4": "Ex parte",
+                                "answer": "Ex parte",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"Made against or affecting a thing, and therefore other people generally; imposing a general liability.",
+                                "option_1": "Abate",
+                                "option_2": "In Rem",
+                                "option_3": "Intestate",
+                                "option_4": "Sequester",
+                                "answer": "In Rem",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"A personal possession.",
+                                "option_1": "Possession",
+                                "option_2": "Chattel",
+                                "option_3": "Property",
+                                "option_4": "Tort",
+                                "answer": "Chattel",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"To formally annul or repeal a law through an act of legislation, constitutional authority, or custom.",
+                                "option_1": "Withdraw",
+                                "option_2": "Uphold",
+                                "option_3": "Abrogate",
+                                "option_4": "Restraint",
+                                "answer": "Abrogate",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":" A court decision in an earlier case with facts and law similar to a dispute currently before a court.",
+                                "option_1": "Precedent",
+                                "option_2": "Citation",
+                                "option_3": "Pro Se",
+                                "option_4": "Quid Pro Quo",
+                                "answer": "Precedent",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"In fact, or in effect, whether by right or not.",
+                                "option_1": "Aquisition",
+                                "option_2": "De Facto",
+                                "option_3": "Affirmative",
+                                "option_4": "Carpe facto",
+                                "answer": "De Facto",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"The lawyer or lawyers conducting a case.",
+                                "option_1": "Bailiff",
+                                "option_2": "Defendant",
+                                "option_3": "Plaintiff",
+                                "option_4": "Counsel",
+                                "answer": "Counsel",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"When necessary or needed.",
+                                "option_1": "exculpatory",
+                                "option_2": "In banc",
+                                "option_3": "Ad Hoc",
+                                "option_4": "Deposition",
+                                "answer": "Ad Hoc",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"A person who has died without having made a will.",
+                                "option_1": "In forma pauperis",
+                                "option_2": "Succession",
+                                "option_3": "Memorium",
+                                "option_4": "Intestate",
+                                "answer": "Intestate",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            }
+                            
+                         ]
+                    }
+              ]
+    }
+}
