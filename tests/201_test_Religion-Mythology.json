@@ -1,0 +1,183 @@
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Facts About Greek Mythology",
+                        "genre": "Mythology",
+                        "genreId": "Greek Mythology",
+                        "head": "Religion",
+                        "type": 0,
+                        "target": [
+                            {
+                                "path": "",
+                                "question":"Who was the leader of the Titans in their war against the Olympian gods to determine who would control the heaven?",
+                                "option_1": "Athena Nike",
+                                "option_2": "Hercules",
+                                "option_3": "Atlas",
+                                "option_4": "Zeus",
+                                "answer": "Atlas",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": "For his punishment, Zeus made Atlas responsible for holding up the heavens and the earth, and he must hold them on his shoulders. Atlas was strong enough for the task, but it was difficult and tiring for the Titan."
+                            },{
+                                "path": "",
+                                "question":"Zeus granted this person eternal virginity for her service of Mount Olympus.",
+                                "option_1": "Hestia",
+                                "option_2": "Aphrodite",
+                                "option_3": "Cleopatra",
+                                "option_4": "Nike",
+                                "answer": "Hestia",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"_________________ is the Greek god of healing and medicine.",
+                                "option_1": "Dionysis",
+                                "option_2": "Asclepius",
+                                "option_3": "Homer",
+                                "option_4": "Achilles",
+                                "answer": "Asclepius",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"Athena and Poseidon both wanted to be the guardian of a certain city, so they had a gift-giving competition. Poseidon gave them a beautiful spring, but the water was salty and useless. Athena gave them an olive tree that gave food, oil, and wood. We know this city as what?",
+                                "option_1": "Peoria",
+                                "option_2": "Atlanta",
+                                "option_3": "Portugal",
+                                "option_4": "Athens",
+                                "answer": "Athens",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"Who is the god of the sea and waters?",
+                                "option_1": "Atalanata",
+                                "option_2": "Posiedon",
+                                "option_3": "Aeneas",
+                                "option_4": "Persius",
+                                "answer": "Posiedon",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"A nymph had the job of distracting Hera from Zeus’ affairs by leading her away and flattering her. When Hera discovered this, she cursed the nymph to only repeat the words of others. What was the nymphs Name?",
+                                "option_1": "Cupid",
+                                "option_2": "Follow",
+                                "option_3": "Echo",
+                                "option_4": "Repetition",
+                                "answer": "Echo",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"Who is known the god of the sun?",
+                                "option_1": "Ra",
+                                "option_2": "Apollo",
+                                "option_3": "Odysseus ",
+                                "option_4": "Zeus",
+                                "answer": "Apollo",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"WHo is Athena Nikes' brother and the god of war?",
+                                "option_1": "Ares",
+                                "option_2": "Achilles",
+                                "option_3": "Adonas",
+                                "option_4": "Abraxas.",
+                                "answer": "Ares",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"She was the daughter of Zeus and sister to Apollo, the goddess of the hunt, wild animals, wilderness, childbirth, virginity and protector of young girls, bringing and relieving disease in women; she often was depicted as a huntress carrying a bow and arrows. Who is she?",
+                                "option_1": "Aura",
+                                "option_2": "Aphrodite",
+                                "option_3": "Artemis",
+                                "option_4": "Algos",
+                                "answer": "Artemis",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"He left Ariadne, the Princess who helped him escape the Labyrinth, on an island when she fell asleep. He forgot to hoist a red sail on his ship to signal his safety, prompting his father to think he had died and killed himself.",
+                                "option_1": "Mneme",
+                                "option_2": "Arche",
+                                "option_3": "Theseus",
+                                "option_4": "Nemesis",
+                                "answer": "Theseus",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "Which of the following came first?",
+                                "option_1": "Titans",
+                                "option_2": "Olympians",
+                                "option_3": "The Gaia",
+                                "option_4": "Chaos",
+                                "answer": "Chaos",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question": "A titan, knew that the Olympians would eventually surpass him in power, so he swallowed them to keep that from happening. Who was he?",
+                                "option_1": "Rhea",
+                                "option_2": "Kronos",
+                                "option_3": "Atlas",
+                                "option_4": "Perseus",
+                                "answer": "Kronos",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"According to Greek mythology, _________ was the first mortal woman. She was also made by Zeus as a way to punish man for Prometheus’ insolent kleptomania.",
+                                "option_1": "Pandora",
+                                "option_2": "Medusa",
+                                "option_3": "Eartha Kitt",
+                                "option_4": "Hera",
+                                "answer": "Pandora",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"Who is known as the father of the Greek gods?",
+                                "option_1": "Cronos",
+                                "option_2": "Poseidon",
+                                "option_3": "Zeus",
+                                "option_4": "Hades",
+                                "answer": "Zeus",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"Zeus is known for taking animal forms to seduce women. Who did he seduce as a ",
+                                "option_1": "Asteria",
+                                "option_2": "Persephone",
+                                "option_3": "Europa",
+                                "option_4": "Phythia",
+                                "answer": "Persephone",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            }
+                            
+                         ]
+                    }
+              ]
+    }
+}

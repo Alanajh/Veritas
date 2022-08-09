@@ -1,0 +1,137 @@
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "General Financial Terms and Definitions",
+                        "genre": "Finance",
+                        "genreId": "General Finance",
+                        "head": "Economics",
+                        "type": 0,
+                        "target": [
+                            {
+                                "path": "",
+                                "question": "What does CPI stand for",
+                                "option_1": "Customer Price Index",
+                                "option_2": "Consisten Payroll Indices",
+                                "option_3": "Consumer Price Index",
+                                "option_4": "Country Paryoll Index",
+                                "answer": "Consumer Price Index",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": "The Consumer Price Index (CPI) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services."
+                            },
+                           {
+                                "path": "",
+                                "question": "What is PPI",
+                                "option_1": "Producer Price Index",
+                                "option_2": "Progressive Payments Tax",
+                                "option_3": "Payroll Pricing Index",
+                                "option_4": "Payroll Progress Index",
+                                "answer": "Producer Price Index",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question": "What is The NYSE?",
+                                "option_1": "New York Stock Exchange",
+                                "option_2": "New York Stock Economics",
+                                "option_3": "New York Salary Edge",
+                                "option_4": "News Yearly Salary Events",
+                                "answer": "New York Stock Exchange",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question":"Name an international financial institution that provides loans and grants to the governments of low- and middle-income countries for the purpose of pursuing capital projects.",
+                                "option_1": "The International Bank",
+                                "option_2": "The World Bank",
+                                "option_3": "The International Monetary Fund",
+                                "option_4": "World Finances Bank",
+                                "answer": "The World Bank",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question":"Fiscal Policy is ...?",
+                                "option_1": "the policy adopted by the monetary authority of a nation to control either the interest rate payable for very short-term borrowing (borrowing by banks from each other to meet their short-term needs) or the money supply, often as an attempt to reduce inflation or the interest rate, to ensure price stability and general trust of the value and stability of the nation's currency.",
+                                "option_2": "a government's policy governing international trade.",
+                                "option_3": "the use of government revenue collection (taxes or tax cuts) and expenditure to influence a country's economy.",
+                                "option_4": "a policy which increasing the supply of goods which translates to economic growth for a country.",
+                                "answer": "the use of government revenue collection (taxes or tax cuts) and expenditure to influence a country's economy.",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question": "What does SEC stand for?",
+                                "option_1": "Swedis Economics Committee",
+                                "option_2": "Secure Events Committee",
+                                "option_3": "Securities and Economics Committee",
+                                "option_4": "Securities and Exchange Commmission",
+                                "answer": "Securities and Exchange Commmission",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question":"What is NFP?",
+                                "option_1": "National Financial Projection",
+                                "option_2": "National Family Plan",
+                                "option_3": "Numeric Financial Prices",
+                                "option_4": "Non-Farm Payroll",
+                                "answer": "Non-Farm Payroll",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question": "A CAGR (Compound Growth Ratio is...",
+                                "option_1": "",
+                                "option_2": "",
+                                "option_3": "",
+                                "option_4": "",
+                                "answer": "",
+                                "direct": "",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question":"",
+                                "option_1": "",
+                                "option_2": "",
+                                "option_3": "",
+                                "option_4": "",
+                                "answer": "",
+                                "direct": "",
+                                "hint_1": "",
+                                "point": ""
+                            },
+                           {
+                                "path": "",
+                                "question":"",
+                                "option_1": "",
+                                "option_2": "",
+                                "option_3": "",
+                                "option_4": "",
+                                "answer": "",
+                                "direct": "",
+                                "hint_1": "",
+                                "point": ""
+                            }
+                            
+                         ]
+                    }
+              ]
+    }
+}
