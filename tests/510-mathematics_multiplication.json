@@ -1,0 +1,358 @@
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Multiplication - Level 1",
+                        "genre": "General Mathematics",
+                        "genreId": "Multiplication",
+                        "head": "Mathematics",
+                        "type": 1,
+                        "target": [
+                            {
+                                "path": "",
+                                "question":"1 * 4 =",
+                                "option_1": "4",
+                                "option_2": "1",
+                                "option_3": "5",
+                                "option_4": "6",
+                                "answer": "4",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"2 * 6 =",
+                                "option_1": "8",
+                                "option_2": "18",
+                                "option_3": "12",
+                                "option_4": "26",
+                                "answer": "12",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"9 * 2 =",
+                                "option_1": "26",
+                                "option_2": "18",
+                                "option_3": "16",
+                                "option_4": "21",
+                                "answer": "18",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"7 * 3 =",
+                                "option_1": "22",
+                                "option_2": "17",
+                                "option_3": "20",
+                                "option_4": "21",
+                                "answer": "21",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"8 * 5 =",
+                                "option_1": "52",
+                                "option_2": "56",
+                                "option_3": "40",
+                                "option_4": "33",
+                                "answer": "40",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"11 * 4 =",
+                                "option_1": "44",
+                                "option_2": "42",
+                                "option_3": "48",
+                                "option_4": "51",
+                                "answer": "44",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"10 * 2 =",
+                                "option_1": "12",
+                                "option_2": "22",
+                                "option_3": "20",
+                                "option_4": "14",
+                                "answer": "20",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"3 * 3 =",
+                                "option_1": "6",
+                                "option_2": "9",
+                                "option_3": "8",
+                                "option_4": "12",
+                                "answer": "9",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"5 * 5 =",
+                                "option_1": "10",
+                                "option_2": "55",
+                                "option_3": "30",
+                                "option_4": "25",
+                                "answer": "25",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"2 * 6 =",
+                                "option_1": "12",
+                                "option_2": "16",
+                                "option_3": "14",
+                                "option_4": "18",
+                                "answer": "12",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"1 * 4 =",
+                                "option_1": "2",
+                                "option_2": "5",
+                                "option_3": "4",
+                                "option_4": "6",
+                                "answer": "4",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"4 * 4 =",
+                                "option_1": "22",
+                                "option_2": "16",
+                                "option_3": "18",
+                                "option_4": "12",
+                                "answer": "16",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"3 * 6 =",
+                                "option_1": "18",
+                                "option_2": "92",
+                                "option_3": "22",
+                                "option_4": "19",
+                                "answer": "18",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"7 * 3 =",
+                                "option_1": "26",
+                                "option_2": "22",
+                                "option_3": "18",
+                                "option_4": "21",
+                                "answer": "21",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"9 * 4 =",
+                                "option_1": "49",
+                                "option_2": "38",
+                                "option_3": "36",
+                                "option_4": "48",
+                                "answer": "36",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"8 * 6 =",
+                                "option_1": "14",
+                                "option_2": "48",
+                                "option_3": "39",
+                                "option_4": "68",
+                                "answer": "48",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"0 * 6 =",
+                                "option_1": "6",
+                                "option_2": "60",
+                                "option_3": "66",
+                                "option_4": "6",
+                                "answer": "6",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"11 * 7 =",
+                                "option_1": "66",
+                                "option_2": "77",
+                                "option_3": "18",
+                                "option_4": "70",
+                                "answer": "77",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"10 * 5 =",
+                                "option_1": "50",
+                                "option_2": "15",
+                                "option_3": "20",
+                                "option_4": "6",
+                                "answer": "50",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"5 * 4 =",
+                                "option_1": "15",
+                                "option_2": "14",
+                                "option_3": "19",
+                                "option_4": "20",
+                                "answer": "20",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"4 * 5 =",
+                                "option_1": "22",
+                                "option_2": "16",
+                                "option_3": "20",
+                                "option_4": "9",
+                                "answer": "20",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"3 * 3 =",
+                                "option_1": "12",
+                                "option_2": "8",
+                                "option_3": "9",
+                                "option_4": "6",
+                                "answer": "9",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"2 * 15 =",
+                                "option_1": "30",
+                                "option_2": "32",
+                                "option_3": "34",
+                                "option_4": "40",
+                                "answer": "30",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"12 * 2 =",
+                                "option_1": "36",
+                                "option_2": "14",
+                                "option_3": "22",
+                                "option_4": "24",
+                                "answer": "24",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"20 * 3 =",
+                                "option_1": "80",
+                                "option_2": "70",
+                                "option_3": "44",
+                                "option_4": "60",
+                                "answer": "60",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"8 * 9 =",
+                                "option_1": "72",
+                                "option_2": "68",
+                                "option_3": "19",
+                                "option_4": "76",
+                                "answer": "72",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"16 * 2 =",
+                                "option_1": "28",
+                                "option_2": "36",
+                                "option_3": "38",
+                                "option_4": "22",
+                                "answer": "38",
+                                "direct": "third",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"14 * 4",
+                                "option_1": "48",
+                                "option_2": "18",
+                                "option_3": "56",
+                                "option_4": "166",
+                                "answer": "56",
+                                "direct": "third,
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"21 * 2 =",
+                                "option_1": "42",
+                                "option_2": "24",
+                                "option_3": "122",
+                                "option_4": "54",
+                                "answer": "42",
+                                "direct": "first",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"7 * 7 =",
+                                "option_1": "69",
+                                "option_2": "51",
+                                "option_3": "77",
+                                "option_4": "49",
+                                "answer": "49",
+                                "direct": "fourth",
+                                "hint_1": "",
+                                "point": ""
+                            },{
+                                "path": "",
+                                "question":"9 * 9 =",
+                                "option_1": "87",
+                                "option_2": "81",
+                                "option_3": "100",
+                                "option_4": "99",
+                                "answer": "81",
+                                "direct": "second",
+                                "hint_1": "",
+                                "point": ""
+                            }
+                         ]
+                    }
+              ]
+    }
+}
