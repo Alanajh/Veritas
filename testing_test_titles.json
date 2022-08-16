@@ -11,6 +11,14 @@
                         "metadata": "medical history, doctors, medicine, discovery, vaccine, biology"
                     },
                     {
+                        "title": "Multiplication - Level 1",
+                        "genre": "Mathematics",
+                        "sub": "Multiplication",
+                        "value": 0,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/510-mathematics_multiplication.json",
+                        "metadata": "math, mathematics, multiplication, times table, numbers, number",
+                        "disclaimer": ""
+                    {
                         "title": "Legal Terminology",
                         "genre": "Law",
                         "sub": "Legal Cases",
