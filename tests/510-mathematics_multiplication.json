@@ -7,7 +7,7 @@
                         "genre": "General Mathematics",
                         "genreId": "Multiplication",
                         "head": "Mathematics",
-                        "type": 1,
+                        "type": 0,
                         "target": [
                             {
                                 "path": "",
