@@ -37,12 +37,13 @@
                         "metadata": "law, legal, supreme court, case, landmark"
                     },
                     {
-                        "title": "African American Famous Figures and Leaders",
+                        "title": "African American Famous Figures and Leaders - Men Edition",
                         "genre": "History",
                         "sub": "African American History",
                         "value": 3,
-                        "link": "",
-                        "metadata": "history, african, american, leaders, black"
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/973-african_american_history.json",
+                        "metadata": "history, african, american, leaders, black",
+                        "disclaimer": "This test respresent a small fraction of innovations and leadership among the black male community. Please be advised."
                     },
                     {
                         "title": "Identifying Historical Clothing Items",
