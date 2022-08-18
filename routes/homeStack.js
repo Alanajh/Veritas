@@ -11,6 +11,7 @@ import ScoreScreen from "../components/scoreScreen";
 import MathTests from "../components/mathTests";
 /* Purely for testing */
 import TestCode from "../components/testingCode";
+import Login from "../components/login";
 
 const screens = {
     Home: {
@@ -29,7 +30,7 @@ const screens = {
         screen: TestScreen
     },
     Profile: {
-        screen: MathTests
+        screen: Login
     }
 }
 const HomeStack = createStackNavigator(screens);

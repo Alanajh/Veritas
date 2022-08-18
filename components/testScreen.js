@@ -38,16 +38,16 @@ export default  function TestScreen ()  {
     const [ img, setImg ] = useState('');
     const [ score, setScore ] = useState(0);
     const [ scores, setScores] = useState([]);
-    const [ genrw, setGenre] = useState([]);
-    const [ date, setDate] = useState(new Date);
+    const [ genre, setGenre] = useState([]);
+    const [ date, setDate] = useState(new Date().toLocaleString());
     const [ scoreDate, setScoreDate] = ([])
 
     const [ fine, setFine ] = useState(false);
     const [ testUrl, setTestUrl ] = useState('');
       
-    const [checked, setChecked] = useState('first');
+    const [checked, setChecked] = useState('');
     const [correct, setCorrect] = useState(false);
-    const [value, setValue] = useState('first');
+    const [value, setValue] = useState('');
     const [progress, setProgress] = useState(0);
     const [testType, setTestType] = useState();
 
@@ -160,7 +160,7 @@ export default  function TestScreen ()  {
                   style={styles.listTxt}
                   onPress={() => getTest(testTitle, testSelection, testGenre)}> 
             <Icon name='chevron-back-outline' size={15} color='blue'/>
-            {testTitle + ' - ' + date} 
+            {testTitle} 
             
         </Text>
       }
@@ -171,6 +171,11 @@ export default  function TestScreen ()  {
           
       }
 
+      const RenderScoreDate = ({scoreDate}) => {
+        return <Text style={styles.listTxt}
+        >{scoreDate}</Text>
+          
+      }
     /* TEST TAKING SCREEN */
     const getTestQuestion = () => {
       setTestSelected(true)
@@ -188,7 +193,7 @@ export default  function TestScreen ()  {
 
     const getNext = () => { 
         let done = false;
-       setValue('first')
+       setValue('')
         if(progress < testLength){
           setStartTest(false)
           setProgress(progress + 1)
@@ -204,7 +209,6 @@ export default  function TestScreen ()  {
         }
         if(progress == testLength){
           setScores(scores.concat(score))
-          setScoreDate(scoreDate.concat(date))
           setScoreScreenTitles(scoreScreenTitles.concat(testSelectedTitle).sort())
           setTestSelected(false)
         }
@@ -349,7 +353,8 @@ export default  function TestScreen ()  {
            data={scores}
            renderItem={({ item }) => <View>
              <RenderScoreTitle 
-             scoreTitle={item} />
+             scoreTitle={item} 
+             testDate={date}/>
              </View>}
            keyExtractor={(item, index) => index.toString()}
            extraData={titles}
@@ -360,13 +365,12 @@ export default  function TestScreen ()  {
             style={styles.flat}
             data={scoreDate}
             renderItem={({ item }) => <View>
-              <RenderScoreTitle
-              scoreTitle={item} />
+              <RenderScoreDate
+              scoreDate={item} />
               </View>}
             keyExtractor={(item, index) => index.toString()}
             extraData={scoreDate}
             ItemSeparatorComponent={ItemDividerScore}/>
-
 
                 </View>
               </View>
