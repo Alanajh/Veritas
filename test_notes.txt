@@ -6,6 +6,7 @@ Text Types:
   4 - audio, text and sound button
   7 - mixed
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 1). Create a copy of the array
 2). Call the sort method on the array passing it a function
