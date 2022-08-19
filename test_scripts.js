@@ -1,3 +1,23 @@
+// CHECKBOX //
+import { CheckBox, Text, View } from "react-native";
+import { useState } from "react";
+
+//SCREENS //
+
+export default function App() {
+  const [isSelected, setSelection] = useState(false);
+  return (
+    <View>
+      <CheckBox
+          value={isSelected}
+          onValueChange={setSelection}
+        />
+        <Text>Is CheckBox selected: {isSelected ? "👍" : "👎"}</Text>
+      </View>
+  );
+}
+
+
 // FILTERING //
 import react, { useState, useEffect, useRef } from 'react';
 
