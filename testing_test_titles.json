@@ -20,6 +20,14 @@
                         "disclaimer": ""
                     },
                     {
+                        "title": "Ologies - The Study of...",
+                        "genre": "General Studies",
+                        "sub": "General Ologies",
+                        "value": 0,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/003-ologies.json",
+                        "metadata": "ologies, general",
+                        "disclaimer" : ""
+                    {
                         "title": "Legal Terminology",
                         "genre": "Law",
                         "sub": "Legal Cases",
