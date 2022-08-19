@@ -36,23 +36,6 @@ const styles = StyleSheet.create({
   },
 });
 
-
-//SCREENS //
-
-export default function App() {
-  const [isSelected, setSelection] = useState(false);
-  return (
-    <View>
-      <CheckBox
-          value={isSelected}
-          onValueChange={setSelection}
-        />
-        <Text>Is CheckBox selected: {isSelected ? "👍" : "👎"}</Text>
-      </View>
-  );
-}
-
-
 // FILTERING //
 import react, { useState, useEffect, useRef } from 'react';
 
@@ -120,7 +103,6 @@ export default  function TestScreen ()  {
             )
           }
 
-    // StyleSheet
     const styles = StyleSheet.create({
       btn:{
         alignSelf: 'center',
