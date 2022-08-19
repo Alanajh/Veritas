@@ -3,4 +3,5 @@ Text Types:
   1 - multiple choice, questions pic & answers are text
   2 - essay
   3 - true or false
+  4 - audio, text and sound button
   7 - mixed
