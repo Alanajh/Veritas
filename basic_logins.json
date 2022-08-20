@@ -7,34 +7,48 @@
                             "level": "",
                             "username": "admin",
                             "password": "admin",
+                            "access": [
+                                {
                                     "read": "1",
                                     "write":"1",
                                     "delete": "1",
                                     "update": "1",
-                                    "change": "1"
+                                    "change": "1",
+                                }
 
+                             ]
                         },{
                             "type": "Student",
                             "typeID": "",
                             "level": "",
                             "username": "student",
                             "password": "student",
+                            "access": [
+                                {
                                     "read": "1",
                                     "write":"0",
                                     "delete": "0",
                                     "update": "0",
-                                    "change": "0"
+                                    "change": "0",
+                                }
+
+                             ]
                         },{
                             "type": "Teacher",
                             "typeID": "",
                             "level": "",
                             "username": "teacher",
                             "password": "teacher",
+                            "access": [
+                                {
                                     "read": "1",
                                     "write":"1",
                                     "delete": "0",
                                     "update": "1",
-                                    "change": "1"
+                                    "change": "1",
+                                }
+
+                             ]
                         }
                   ]
                }
