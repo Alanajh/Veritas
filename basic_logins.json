@@ -28,7 +28,7 @@
                         "typeID": "",
                         "level": "",
                         "username": "teacher",
-                        "password": "teacher"
+                        "password": "teacher",
                         "read": "1",
                         "write":"1",
                         "delete": "0",
