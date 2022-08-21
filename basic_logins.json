@@ -34,6 +34,17 @@
                         "delete": "0",
                         "update": "1",
                         "change": "1"
+                    },{
+                        "type": "Admin",
+                        "typeID": "",
+                        "level": "",
+                        "username": "laney",
+                        "password": "jo",
+                        "read": "1",
+                        "write":"1",
+                        "delete": "0",
+                        "update": "1",
+                        "change": "1"   
                     }
               ]
            }
