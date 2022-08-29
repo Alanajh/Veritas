@@ -115,3 +115,35 @@ export default  function TestScreen ()  {
          margin: 10
        }
     })
+    
+    --------------------------------------------------------------------------------------------
+    
+    PASSING PARAMETERS:
+
+function TestScreen({navigation}){
+      const [ testTitle, setTestTitle] = useState('THis is a test title that has been set from the button below")
+
+return(
+<View>
+     <Button
+          title: "button"
+          onPress={() => { navigation.navigate('LetsBegin', {
+	testTitle: ' testTitleHookHere',
+                    anotherParameter: 'something',
+           });
+}}
+</View>
+)
+
+      *********************** NEW FUNCTION BELOW TO PASS TO ***************************
+
+function LetsBeginScreen({ route, navigation }) {
+     const [testTitle, setTestTitle] = route.params;
+
+return(
+     <View>
+          <Text> Test Title:  {JSON>stringify(testTitle)}
+     </View>
+)
+
+
