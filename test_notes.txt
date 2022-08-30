@@ -55,3 +55,14 @@ Text Types:
 TICKETS/TASKS:
 
 Change the color of the text list test title to a lighter blue or gray if there is no link
+Theming across the entire app
+Search functionalities
+filter icon
+Filter functionality
+sort icon
+sort functionality
+about us page
+create basic profile layout
+create (across the app) header with profile template
+create a permanent db
+connect and fetch to/from database
