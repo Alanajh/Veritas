@@ -332,8 +332,27 @@
                         "genre": "Arts",
                         "sub": "",
                         "value": 1.982,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/791-disney_characters.json",
+                        "metadata": "movies, characters, disney, arts",
+                        "disclaimer": "Though there are a great many wonderful Disney characters, all could not be included in this particular test. Enjoy."
+                    },
+                    {
+                        "title": "Characters from Disney Movies - Princess Edition",
+                        "genre": "Arts",
+                        "sub": "",
+                        "value": 1.982,
                         "link": "",
-                        "metadata": "movies, characters, disney, arts"
+                        "metadata": "movies, characters, disney, arts",
+                        "disclaimer": "Though there are a great many wonderful Disney characters, all could not be included in this particular test. Enjoy."
+                    },
+                    {
+                        "title": "Characters from Disney Movies - Evil Villian Edition",
+                        "genre": "Arts",
+                        "sub": "",
+                        "value": 1.982,
+                        "link": "",
+                        "metadata": "movies, characters, disney, arts",
+                        "disclaimer": "Though there are a great many wonderful Disney characters, all could not be included in this particular test. Enjoy."
                     },
                     {
                         "title": "The Red Scare",
