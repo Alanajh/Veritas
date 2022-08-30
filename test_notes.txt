@@ -50,3 +50,8 @@ Text Types:
               ]
     }
 }
+
+****************************************************************************************************************************
+TICKETS/TASKS:
+
+Change the color of the text list test title to a lighter blue or gray if there is no link
