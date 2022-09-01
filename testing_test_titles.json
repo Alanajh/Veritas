@@ -48,7 +48,7 @@
                     },
                     {
                         "title": "United States Landmark Supreme Court Cases",
-                        "genre": "Legal",
+                        "genre": "Law",
                         "sub": "United States Law",
                         "value": 3,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/3_test-SocialScience-landmark_cases.json",
