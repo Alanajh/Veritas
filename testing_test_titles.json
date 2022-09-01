@@ -4,7 +4,7 @@
             [
                     {
                         "title": "Famous Medical Discoveries",
-                        "genre": "Medical",
+                        "genre": "Science",
                         "sub": "Medical History",
                         "value": 51,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/610-Famous_Medical_Discoveries.json",
@@ -12,8 +12,8 @@
                     },
                     {
                         "title": "Multiplication - Level 1",
-                        "genre": "Mathematics",
-                        "sub": "Multiplication",
+                        "genre": "Science",
+                        "sub": "Mathematics",
                         "value": 0,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/510-mathematics_multiplication.json",
                         "metadata": "math, mathematics, multiplication, times table, numbers, number",
@@ -21,7 +21,7 @@
                     },
                     {
                         "title": "Phobias and Fears",
-                        "genre": "General",
+                        "genre": "General Studies",
                         "sub": "Phobias",
                         "value": 0,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/152-phobias_and_fears.json",
@@ -81,24 +81,24 @@
                     },
                     {
                         "title": "World Leaders and Their Parties",
-                        "genre": "World History",
-                        "sub": "Military History",
+                        "genre": "History",
+                        "sub": "World Military History",
                         "value": 22,
                         "link": "cnbc.com",
                         "metadata": "military history, political parties, politics, organizations, leaders"
                     },
                     {
                         "title": "Countries and Their Parties",
-                        "genre": "World History",
-                        "sub": "Political History",
+                        "genre": "History",
+                        "sub": "World Political History",
                         "value": 22,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/329-Political_Parties_and_Leaders.json",
                         "metadata": "military history, political parties, politics, organizations, leaders"
                     },
                     {
                         "title": "U.S. Event, Landmarks & Monuments",
-                        "genre": "American History",
-                        "sub": "",
+                        "genre": "History",
+                        "sub": "united States History",
                         "value": 99,
                         "link": "",
                         "metadata": "United States, American, monuments, landmarks, historic events"
@@ -106,14 +106,14 @@
                     {
                         "title": "Great Lines from Great Works",
                         "genre": "Literature",
-                        "sub": "",
+                        "sub": "Classic Literature",
                         "value": 8,
                         "link": "",
                         "metadata": "literature, writing, books"
                     },
                     {
                         "title": "Countries and Their Capitals",
-                        "genre": "Geography",
+                        "genre": "Geography and Travel",
                         "sub": "World Geography",
                         "value": 8,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/912-Countris_and_Capitals.json",
@@ -121,8 +121,8 @@
                     },
                     {
                         "title": "Famous Discoveries of Biological Science",
-                        "genre": "Biology",
-                        "sub": "",
+                        "genre": "Science",
+                        "sub": "Biology",
                         "value": 52,
                         "link": "",
                         "metadata": "biology, discoveries, science"
@@ -137,24 +137,24 @@
                     },
                     {
                         "title": "Flags of the Americas",
-                        "genre": "Geography",
-                        "sub": "",
+                        "genre": "Geography and Travel",
+                        "sub": "U.S. Geography",
                         "value": 91,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/920-Flags_of_the_Americas.json",
                         "metadata": "flags, americas, south america, countries, geography"
                     },
                     {
                         "title": "Flags of Africa",
-                        "genre": "Geography",
-                        "sub": "",
+                        "genre": "Geography and Travel",
+                        "sub": "African Geography",
                         "value": 92,
                         "link": "",
                         "metadata": "flags, africa, countries, geography"
                     },
                     {
                         "title": "Flags of Europe",
-                        "genre": "Geography",
-                        "sub": "",
+                        "genre": "Geography and Travel",
+                        "sub": "European Geography",
                         "value": 93,
                         "link": "",
                         "metadata": "flags, europe, nordic, countries, geography"
@@ -176,17 +176,17 @@
                         "metadata": "business, history, companies, finance"
                     },
                     {
-                        "title": "Zodiac Signs",
-                        "genre": "Astrology",
-                        "sub": "",
+                        "title": "Identifying Zodiac Signs",
+                        "genre": "",
+                        "sub": "Astrology",
                         "value": 11,
                         "link": "",
                         "metadata": "astrology, zodiac, signs"
                     },
                     {
                         "title": "Music of the 90s",
-                        "genre": "Music",
-                        "sub": "",
+                        "genre": "Arts",
+                        "sub": "Music",
                         "value": 12,
                         "link": "",
                         "metadata": "music, 90s, r&b, sound"
@@ -201,16 +201,16 @@
                     },
                     {
                         "title": "The Siege of/at Yorktown",
-                        "genre": "American History",
-                        "sub": "",
+                        "genre": "History",
+                        "sub": "United States History",
                         "value": 94,
                         "link": "",
                         "metadata": "american, history, battles, siege, yorktown"
                     },
                     {
                         "title": "Famous Characters From Literature",
-                        "genre": "Literature",
-                        "sub": "",
+                        "genre": "Language",
+                        "sub": "Literature",
                         "value": 82,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/8_test-Literature-Classics.json",
                         "metadata": "characters, literature, reading, writing, books"
@@ -218,7 +218,7 @@
                     ,
                     {
                         "title": "Famous Artist and Their Art",
-                        "genre": "Art",
+                        "genre": "Arts",
                         "sub": "",
                         "value": 16,
                         "link": "",
@@ -235,16 +235,16 @@
                     },
                     {
                         "title": "Identifying Algebraic Equations",
-                        "genre": "Mathematics",
-                        "sub": "",
+                        "genre": "Science",
+                        "sub": "Mathematics",
                         "value": 18,
                         "link": "",
                         "metadata": "math, algebra, equations"
                     },
                     {
                         "title": "Events That Shaped The U.S. Presidencies",
-                        "genre": "United States History",
-                        "sub": "",
+                        "genre": "History",
+                        "sub": "United States History",
                         "value": 9.1,
                         "link": "",
                         "metadata": "United States, history, events, president, usa "
@@ -258,16 +258,16 @@
                     },
                     {
                         "title": "Government Conspiracies - Health & Medicine",
-                        "genre": "Conspiracies",
-                        "sub": "",
+                        "genre": "General",
+                        "sub": "Conspiracies",
                         "value": 1.981,
                         "link": "",
                         "metadata": "conspiracy, government, history, health, medicine, secrets"
                     },
                     {
                         "title": "Government Conspiracies - Military",
-                        "genre": "Conspiracies",
-                        "sub": "",
+                        "genre": "General",
+                        "sub": "Conspiracies",
                         "value": 1.982,
                         "link": "",
                         "metadata": "conspiracy, government, history, military, secrets"
@@ -275,23 +275,23 @@
                     {
                         "title": "Companies and Their Owners",
                         "genre": "Business",
-                        "sub": "",
+                        "sub": "Business History",
                         "value": 0,
                         "link": "",
                         "metadata": "Business History, Business, History, Leaders, Finance"
                     },
                     {
                         "title": "Ancient Civilizations and Their Descendents",
-                        "genre": "World History",
-                        "sub": "",
+                        "genre": "History",
+                        "sub": "World History",
                         "value": 0,
                         "link": "",
                         "metadata": "World, History, Culture, Race"
                     },
                     {
                         "title": "Cultural Letters",
-                        "genre": "Linguistics",
-                        "sub": "",
+                        "genre": "Language Arts",
+                        "sub": "Linguistics",
                         "value": 0,
                         "link": "",
                         "metadata": "Letters, Language, Linguistics, Phoenetics"
@@ -299,15 +299,15 @@
                     {
                         "title": "Historical Scandals of the United Kingdom",
                         "genre": "History",
-                        "sub": "",
+                        "sub": "English History",
                         "value": 0,
                         "link": "",
-                        "metadata": "British, United Kingdom, U.K., England, Scandal"
+                        "metadata": "British, United Kingdom, U.K., England, Scandal, royals, royalty"
                     },
                     {
                         "title": "The Market Crash of 1929",
                         "genre": "Business",
-                        "sub": "",
+                        "sub": "Business History",
                         "value": 0,
                         "link": "",
                         "metadata": "Business, History, American History, Finance"
@@ -315,10 +315,10 @@
                     {
                         "title": "The History of Ellis Island",
                         "genre": "History",
-                        "sub": "",
+                        "sub": "United States History",
                         "value": 9,
                         "link": "",
-                        "metadata": "American History, New York, Island, "
+                        "metadata": "American History, New York, Island, immigrants, immigration"
                     },
                     {
                         "title": "Monuments Around The World",
@@ -331,28 +331,28 @@
                     {
                         "title": "Characters from Disney Movies",
                         "genre": "Arts",
-                        "sub": "",
+                        "sub": "Animation",
                         "value": 1.982,
                         "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/791-disney_characters.json",
-                        "metadata": "movies, characters, disney, arts",
+                        "metadata": "movies, characters, disney, arts, animation",
                         "disclaimer": "Though there are a great many wonderful Disney characters, all could not be included in this particular test. Enjoy."
                     },
                     {
                         "title": "Characters from Disney Movies - Princess Edition",
                         "genre": "Arts",
-                        "sub": "",
+                        "sub": "Animation",
                         "value": 1.982,
                         "link": "",
-                        "metadata": "movies, characters, disney, arts",
+                        "metadata": "movies, characters, disney, arts, animation",
                         "disclaimer": "Though there are a great many wonderful Disney characters, all could not be included in this particular test. Enjoy."
                     },
                     {
                         "title": "Characters from Disney Movies - Evil Villian Edition",
                         "genre": "Arts",
-                        "sub": "",
+                        "sub": "Animation",
                         "value": 1.982,
                         "link": "",
-                        "metadata": "movies, characters, disney, arts",
+                        "metadata": "movies, characters, disney, arts, animation",
                         "disclaimer": "Though there are a great many wonderful Disney characters, all could not be included in this particular test. Enjoy."
                     },
                     {
@@ -366,10 +366,10 @@
                     {
                         "title": "Italian I - Greetings & Numbers",
                         "genre": "Language",
-                        "sub": "",
+                        "sub": "Linguistics",
                         "value": 1.982,
                         "link": "",
-                        "metadata": "italian, language, arts, foreign, linguistic"
+                        "metadata": "italian, language, arts, foreign, linguistic, italy"
                     }  
                   ]
     }
