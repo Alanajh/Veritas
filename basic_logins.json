@@ -45,6 +45,50 @@
                         "delete": "0",
                         "update": "1",
                         "change": "1"   
+                    },{
+                        "type": "Student",
+                        "typeID": "",
+                        "level": "",
+                        "username": "Vada",
+                        "password": "Monae",
+                        "read": "1",
+                        "write":"1",
+                        "delete": "0",
+                        "update": "1",
+                        "change": "1"   
+                    },{
+                        "type": "Student",
+                        "typeID": "",
+                        "level": "",
+                        "username": "Nick",
+                        "password": "Alex",
+                        "read": "1",
+                        "write":"1",
+                        "delete": "0",
+                        "update": "1",
+                        "change": "1"   
+                    },{
+                        "type": "Student",
+                        "typeID": "",
+                        "level": "",
+                        "username": "Ava",
+                        "password": "Rose",
+                        "read": "1",
+                        "write":"1",
+                        "delete": "0",
+                        "update": "1",
+                        "change": "1"   
+                    },{
+                        "type": "Student",
+                        "typeID": "",
+                        "level": "",
+                        "username": "Alicia",
+                        "password": "Rose",
+                        "read": "1",
+                        "write":"1",
+                        "delete": "0",
+                        "update": "1",
+                        "change": "1"   
                     }
               ]
            }
