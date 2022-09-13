@@ -38,6 +38,14 @@
                         "disclaimer" : ""
                     },
                     {
+                        "title": "The Books of the Old Testament",
+                        "genre": "Religion",
+                        "sub": "Christianity",
+                        "value": 0,
+                        "link": "https://raw.githubusercontent.com/Alanajh/Veritas/main/tests/220_old_testament.json",
+                        "metadata": "god, religion, christian, judaism, israel, jesus, cross, protestant, catholic, vatican, testament, pope, pastor, church",
+                        "disclaimer": "The following test does not indicate any religious affiliation of our staff."
+                    {
                         "title": "Legal Terminology",
                         "genre": "Law",
                         "sub": "Legal Cases",
