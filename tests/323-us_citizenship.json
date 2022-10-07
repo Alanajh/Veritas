@@ -1,0 +1,29 @@
+{
+    "data": {
+        "tests": 
+            [
+                    {
+                        "title": "Civics (History and Government) Questions for the Naturalization Test",
+                        "genre": "Civil and Political Rights",
+                        "genreId": "Naturalization",
+                        "head": "Social Science",
+                        "type": 0,
+                        "target": [
+                            {
+                                "path": "",
+                                "question":"",
+                                "option_1": "",
+                                "option_2": "",
+                                "option_3": "",
+                                "option_4": "",
+                                "answer": "",
+                                "direct": "",
+                                "hint_1": "",
+                                "point": ""
+                            }
+                            
+                         ]
+                    }
+              ]
+    }
+}
